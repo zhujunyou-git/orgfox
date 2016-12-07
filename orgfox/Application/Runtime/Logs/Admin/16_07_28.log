@@ -1,0 +1,105 @@
+[ 2016-07-28T15:49:20+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0043s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:20+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0045s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:21+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0052s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:22+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0042s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:28+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0086s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:28+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0056s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:29+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0040s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:30+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0051s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:30+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0044s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:31+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0045s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:36+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0036s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:36+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0029s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:36+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0043s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:36+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0039s ]
+ERR: 非法操作:test
+
+[ 2016-07-28T15:49:46+08:00 ] 127.0.0.1 /index.php/test/index/test.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0025s ]
+ERR: 非法操作:test
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页轮播图管理</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">财务模块</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+						<a href="" >财务概况</a>
+						<a href="">网站收支</a>
+						<a href="">用户流水</a>
+						<a href="" class="cur">充值审核</a>
+						<a href="">提现审核</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+				<h3 class="sos"><strong>搜索</strong></h3>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">充值单号</label>
+							<input class="form-input-txt" type="text" name="stime" value="" />
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">用户名</label>
+							<input class="form-input-txt" type="text" name="stime" value="" />
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">订单类型</label>
+                             <select name="" class="form-input-txt">
+                        		<option value="">---请选择---</option>        	
+							 	<option value="online_charge">在线充值</option>
+							 	<option value="offline_charge">线下充值</option>
+                            </select>
+						</div>
+					</div>
+				</div>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">结果排序</label>
+	                        <select name="" class="form-input-txt">
+	                           <option value="order_id" selected="selected">默认排序</option>
+	                           <option value="pay_time">充值时间</option>
+	                        </select>
+	                        <select name="" class="form-input-txt">
+	                            <option selected="selected" value="desc">递减</option>
+	                            <option value="asc">递增</option>
+                            </select>
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">显示结果</label>
+                            <select name="" class="form-input-txt">
+                               <option value="10">每页显示10</option>
+                               <option value="20">每页显示20</option>
+                               <option value="30">每页显示30</option>
+                             </select>
+                             <button>搜索</button>
+						</div>
+					</div>
+				</div>
+				<h3 class="sos"><strong>统计信息</strong></h3>
+				<div class="moneycheck">
+						<div class="moneyblock">
+							<div class="cur">
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <input type="checkbox" name="nunber">编号
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           订单类型
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           收款类型
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           充值人
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           充值金额
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           充值时间
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           充值状态
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           操作
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <button>全选</button> <button>批量删除</button>
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="form-group">
+										<div class="page">
+											<form action="" method="get">
+											共<span>42</span>个站点
+												<a href="">首页</a>
+												<a href="">上一页</a>
+												<a href="">下一页</a>
+												第<span style="color:red;font-weight:600">12</span>页
+												共<span style="color:red;font-weight:600">120</span>页
+												<input type="text" class="page-input">
+												<input type="submit" class="page-btn" value="跳转">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	$(".mycheckboxs>div").click(function(){
+     		$(this).addClass("cur").siblings().removeClass("cur");
+     		$(".moneyblock>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+     	})
+     });
+	 KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body>
+</html>

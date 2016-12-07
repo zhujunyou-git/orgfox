@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>认证项目编辑</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">用户管理</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+                           <a href="">认证项目编辑</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+				<form action="">
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">认证项目名称</label>
+								<input class="form-input-txt" type="text" name="stime" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">工作周期</label>
+								<input class="form-input-txt" type="text" name="stime" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">认证有效期</label>
+								<input class="form-input-txt" type="text" name="stime" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">认证描述</label>
+								<textarea name="" id="" cols="30" rows="10" class="form-input-txt"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">是否开启</label>
+                               <input type="checkbox" name="yews" checked="checked">是
+                               <input type="checkbox" name="yews">否
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<label for="">排序</label>
+								<input class="form-input-txt" type="text" name="stime" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="row1">
+						<div class="row-left">
+							<div class="form-group">
+								<input type="submit" name="stime" value="提交" />
+							</div>
+						</div>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	var a=0;
+      $(".seelook").click(function(){
+          if(a==0){
+          	a=1;
+	        $(this).parents(".myparents").css("height","auto");
+	        $(this).val("收起子类");
+          }else{
+          	a=0;
+	        $(this).parents(".myparents").css("height","57px");
+	        $(this).val("查看子类");
+          }
+      });
+      $(".deletethis").click(function(){
+        $(this).parents(".myparents").remove();
+      });
+	  $(".addlook").click(function(){
+	     $(".myfixed2").css("display","block");
+	   });
+	  $(".addliset").click(function(){
+	     $(".myfixed3").css("display","block");
+	   });
+	  $(".myfixed h3 a").click(function(){
+	     $(".myfixed2,.myfixed3").css("display","none");
+	   });
+     });
+</script>
+</body>
+</html>

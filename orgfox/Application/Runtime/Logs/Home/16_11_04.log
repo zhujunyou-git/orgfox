@@ -1,0 +1,2397 @@
+[ 2016-11-04T09:17:54+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0033s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0022s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fox_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-04T09:21:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:21:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:21:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:26:24+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T09:26:33+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:26:33+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:26:33+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:27:18+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T09:27:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:27:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:27:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:29:50+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T09:55:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:20:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:22:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:28:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:30:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:31:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:32:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:33:26+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:22+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:22+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:22+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:34:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:11+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:37:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:21+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:39:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T10:40:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:45:08+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty
+ERR: 模板不存在:./Application/Home/View/Publish/bounty.html
+
+[ 2016-11-04T11:47:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty
+ERR: 模板不存在:./Application/Home/View/Publish/bounty.html
+
+[ 2016-11-04T11:48:13+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T11:48:14+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T11:49:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-04T11:50:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:04+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:50:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:10+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty?task_id=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-04T11:56:37+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty?task_id=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-04T11:56:39+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:39+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:39+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:56:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T11:57:25+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T11:57:25+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:06:20+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:06:20+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:06:20+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:06:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:06:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:06:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:07:05+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:11:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:11:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:11:59+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:12:30+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:15:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:15:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:15:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:29+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:15:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:16:03+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:17:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:37+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:18:44+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:18:44+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:18:44+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:19:39+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:19:59+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:19:59+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:25:26+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:25:26+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:25:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:25:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:27:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:29:31+08:00 ] 127.0.0.1 /index.php/Home/Publish/bounty?task_id=9
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION fox.user_id does not exist
+
+[ 2016-11-04T14:38:00+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:00+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:01+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:01+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:38:02+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:43:03+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:43:03+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:49:10+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:49:10+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:49:12+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:12+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:12+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:13+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:13+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:13+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:14+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T14:49:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:49:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:34+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:34+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:37+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:45+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:45+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:53+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:53+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:53+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:50:53+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:13+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:13+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:51:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:52:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:03+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:06+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:20+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T14:53:20+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:00:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:00:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:00:54+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:00:59+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:01:10+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:17:59+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:18:09+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:18:09+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:18:16+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:16+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:16+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:16+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:17+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:17+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:17+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:17+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:19:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:21:05+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:21:05+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:18+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:28+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:28:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:29:31+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:30:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:30:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:30+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:31+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:31+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:32+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:32+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:32+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:32+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:38:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/task/taskhall
+ERR: 非法操作:task
+
+[ 2016-11-04T15:40:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/task/taskhall
+ERR: 非法操作:task
+
+[ 2016-11-04T15:40:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/task/taskhall
+ERR: 非法操作:task
+
+[ 2016-11-04T15:40:41+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:42+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:43+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:40:44+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:07+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:08+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:08+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:08+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:41:12+08:00 ] 127.0.0.1 /index.php/Home/Publish/Task/taskhall
+ERR: 非法操作:Task
+
+[ 2016-11-04T15:42:27+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:29+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:29+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:29+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:29+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:44:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:44:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:44:06+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:45:14+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:45:14+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T15:47:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:47:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:47:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:55:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:55:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:55:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:01+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:55+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:57:56+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:27+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T15:58:28+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:10+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:51+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:51+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:00:51+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:02:36+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:07:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:08:48+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0032s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:08:48+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0037s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0032s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0031s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0087s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0033s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0043s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0005s ]
+
+[ 2016-11-04T16:16:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0036s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0049s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0028s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0051s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0037s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0047s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0027s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0305s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T16:16:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:16:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:16:24+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:16:31+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0082s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0024s ]
+
+[ 2016-11-04T16:17:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:17:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:17:09+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:17:18+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0028s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+
+[ 2016-11-04T16:18:28+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0044s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_id=2 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:18:36+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0045s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:18:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0046s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_id=8 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:18:50+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0045s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:15+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:22+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0041s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:19:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:49+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:19:56+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0045s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:19:58+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0047s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:20:00+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0047s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:20:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:20:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:20:02+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:23:35+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0048s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T16:23:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T16:23:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T16:36:24+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0074s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:36:24+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0032s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-11-04T16:37:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:37:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T16:37:46+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:01:12+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:12+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:12+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:13+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:35+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:36+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:36+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:36+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:01:36+08:00 ] 127.0.0.1 /index.php/Home/publish/publish.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upid' in 'where clause'
+
+[ 2016-11-04T17:02:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:02:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:02:41+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:02:49+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?upid=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0059s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=19 )  [ RunTime:0.0007s ]
+
+[ 2016-11-04T17:02:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:02:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:02:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:04:16+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:46+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:48+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:05:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:05:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:05:58+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:08:54+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0049s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T17:08:56+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0045s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T17:13:04+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:13:04+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:13:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:13:38+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-04T17:14:16+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:16+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:16+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:17+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:18+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-04T17:14:52+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?industry_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0049s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+
+[ 2016-11-04T17:14:53+08:00 ] 127.0.0.1 /index.php/Home/Publish/publish.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0043s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_task` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-11-04T17:15:05+08:00 ] 127.0.0.1 /index.php/Home/Publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+

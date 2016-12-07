@@ -1,0 +1,503 @@
+[ 2016-10-26T16:44:22+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:44:23+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:44:23+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:44:23+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:44:24+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:45:51+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:45:52+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:45:52+08:00 ] 127.0.0.1 /index.php/Home/Index/PersonalCenter.html
+ERR: 模板不存在:./Application/Home/View/Index/PersonalCenter.html
+
+[ 2016-10-26T16:46:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:10+08:00 ] 127.0.0.1 /index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:10+08:00 ] 127.0.0.1 /index.php/Home/User/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:10+08:00 ] 127.0.0.1 /index.php/Home/User/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:46:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:48:50+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:48:50+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T16:48:50+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-10-26T16:48:50+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:05+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-10-26T17:02:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:05+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:14+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:14+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-10-26T17:02:16+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-10-26T17:02:16+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:16+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:02:16+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T17:36:50+08:00 ] 127.0.0.1 /
+ERR: 非法操作:login
+
+[ 2016-10-26T17:40:04+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `is_activate` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T17:40:29+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0085s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_activate` FROM `fox_user` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T17:43:41+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0054s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_activate` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fox_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T18:44:02+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: Information D:\xampps\entefox\Application\Runtime\Cache\Home\e147013b85e32d874e7c303e502f8616.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-10-26T18:46:02+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T18:52:08+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T18:54:47+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T18:57:32+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T18:57:46+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=4 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T18:59:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:01:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:03:18+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:05:15+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:05:57+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:06:34+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:06:58+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:07:27+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=4 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:08:21+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:08:57+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:10:07+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:10:38+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:11:08+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:14:05+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:14:32+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:16:09+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:16:49+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:17:16+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:17:56+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:18:49+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:19:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:19:42+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:20:23+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:20:40+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:21:46+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:22:20+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:28:14+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:36:18+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:38:36+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T19:41:19+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T19:43:32+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:46:03+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:51:26+08:00 ] 127.0.0.1 /index.php/Home/User/administrationUpdate.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-10-26T19:52:37+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T19:53:51+08:00 ] 127.0.0.1 /index.php/Home/user/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-10-26T19:53:51+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-26T19:53:51+08:00 ] 127.0.0.1 /index.php/Home/user/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-10-26T19:53:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-10-26T19:54:16+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0075s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_activate` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fox_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-10-26T20:19:06+08:00 ] 127.0.0.1 /index.php/Home/user/administration.html
+ERR: XML标签语法错误 : $vo.id==$data.pro
+
+[ 2016-10-26T20:29:11+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0032s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-10-26T20:29:11+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T20:29:14+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+

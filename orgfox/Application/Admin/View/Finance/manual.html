@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页轮播图管理</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">财务模块</a>><a href="">手动充值</a></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+						<a href="" >用户管理</a>
+						<a href="">添加用户</a>
+						<a href="" class="cur">手动充值</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+					<div style="display: none;">
+						<h3 class="sos"><strong>手动充值</strong></h3>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">UID/用户名：</label>
+									<select name="user_type" id="user_type" class="form-input-txt" >
+		                        		<option value="1">UID</option>
+		                        		<option value="2">用户名</option>
+		                        	</select>
+		                        	<input type="text" class="form-input-txt" name="user" id="txt_user" title="请填写待充值用户的UID或 用户名">
+		                        	<button>验证</button>
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">现金：</label>
+		                            <select name="cash_type" id="cash_type" class="form-input-txt">
+		                        		<option value="1">添加 </option>
+		                        		<option value="0">扣除 </option>
+		                        	</select>
+		                        	<input type="text" class="form-input-txt" name="user1" id="txt_user1">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">充值事由：</label>
+								<textarea name="" id=""rows="10" class="form-input-textara">
+									
+								</textarea>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for=""></label>
+									<button>提交</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="display: none;">
+						<h3 class="sos"><strong>添加用户资料</strong></h3>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">用户昵称：</label>
+		                        	<input type="text" class="form-input-txt" name="user" id="txt_user" title="请填写待充值用户的UID或 用户名">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">手机号码：</label>
+		                        	<input type="text" class="form-input-txt" name="user" id="txt_user" title="请填写待充值用户的UID或 用户名">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">QQ号码：</label>
+		                        	<input type="text" class="form-input-txt" name="user" id="txt_user" title="请填写待充值用户的UID或 用户名">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">所属行业：</label>
+		                        	<select class="form-input-txt" name="" id="">
+                                     <option value="">请选择父行业</option>
+                              	     <option value="2">网站开发</option>
+                              	     <option value="3">文案写作</option>
+                              	     <option value="121">软件开发</option>
+                              	     <option value="160">起名取名</option>
+                              	     <option value="192">生活服务</option>
+                              	     <option value="201">创意祝福</option>
+                              	     <option value="211">头脑风暴</option>
+                              	     <option value="218">移动应用</option>
+                              	     <option value="234">法律服务</option>
+                              	     <option value="240">招聘找人</option>
+                              	     <option value="249">网游服务</option>
+                              	     <option value="335">建筑/装修</option>
+                              	     <option value="350">照片美化/编辑</option>
+                              	     <option value="357">影视/配音/歌词</option>
+                              	     <option value="441">快递服务</option>
+                              	     <option value="443">测试6</option>
+                                    </select>
+                                    <select class="form-input-txt" name="" id="">
+                                        <option value="">请选择子行业</option>
+                                    </select>
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">出生日期：</label>
+		                        	<input type="text" class="form-input-txt" name="" id="" title="">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">密码：</label>
+		                        	<input type="text" class="form-input-txt" name="" id="" title="">
+		                        	 (提示：更改此密码不会修改用户的支付密码)
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">邮箱：</label>
+		                        	<input type="text" class="form-input-txt" name="" id="" title="">
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">用户组：</label>
+		                        	<select name="fds[group_id]">
+								  	    <option value="0">普通用户</option>
+								     	<option value="1">管理员</option>
+								     	<option value="2">外围客服</option>
+								     	<option value="3">财务人员</option>
+								     	<option value="7">客服</option>
+								     	<option value="8">编辑</option>
+								    </select>
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for=""></label>
+									<button>提交</button>
+									<button>重置密码</button>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div>
+                    	<h3 class="sos"><strong>搜索</strong></h3>
+						<form action="" method="post">
+							<div class="row1">
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">用户编号</label>
+										<input class="form-input-txt" type="text" name="nun1" value="" />
+									</div>
+								</div>
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">用户名</label>
+										<input class="form-input-txt" type="text" name="title1" value="" />
+									</div>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">注册邮箱</label>
+                                        <input class="form-input-txt" type="text" name="title1" value="" />
+									</div>
+								</div>
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">显示条数</label>
+										<select name="page_size" class="form-input-txt">
+											<option value="10" selected="selected">每页显示10</option>
+											<option value="20">每页显示20</option>
+											<option value="30">每页显示30</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">注册手机</label>
+										<input class="form-input-txt" type="text" name="nun1" value="" />
+									</div>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">结果排序</label>
+										<select name="ord[]" class="form-input-txt">
+				                           <option value="uid" selected="selected">默认排序</option>
+				                           <option value="reg_time">时间</option>
+					                    </select>
+									    <select name="ord[]" class="form-input-txt">
+				                            <option selected="selected" value="desc">递减</option>
+				                            <option value="asc">递增</option>
+				                        </select>
+									</div>
+								</div>
+								<div class="row-left">
+									<div class="form-group">
+										<label for="">用户状态</label>
+										<select name="slt_static" class="form-input-txt">
+											<option value="0" selected="selected"> 所有的 </option>
+											<option value="1"> 普通 </option>
+											<option value="2"> 禁用 </option>
+											<option value="3"> 待激活 </option>
+										</select>
+                                        <button>搜索</button>
+									</div>
+								</div>
+							</div>
+							<h3 class="sos"><strong>悬赏任务列表</strong></h3>
+							<div class="row1">
+								<div class="row-right rightheader">编号</div>
+								<div class="row-right rightheader">任务标题</div>
+								<div class="row-right rightheader">任务金额</div>
+								<div class="row-right rightheader">发布者</div>
+								<div class="row-right rightheader">任务状态</div>
+								<div class="row-right rightheader">处理</div>
+							</div>
+							<div class="row1">
+								<div class="row-right">96</div>
+								<div class="row-right"><a href="">任务0940</a></div>
+								<div class="row-right">￥50.00元</div>
+								<div class="row-right">jie</div>
+								<div class="row-right">投标中</div>
+								<div class="row-right">
+									<button>审核通过</button>
+									<button>审核失败</button>
+									<button>查看</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right">96</div>
+								<div class="row-right"><a href="">任务0940</a></div>
+								<div class="row-right">￥50.00元</div>
+								<div class="row-right">jie</div>
+								<div class="row-right">投标中</div>
+								<div class="row-right">
+									<button>审核通过</button>
+									<button>审核失败</button>
+									<button>查看</button>
+								</div>
+							</div>
+							<div class="row1 imrow">
+								<div class="row-right">
+									<div class="page">
+										<form action="" method="get">
+										共<span>42</span>个站点
+											<a href="">首页</a>
+											<a href="">上一页</a>
+											<a href="">下一页</a>
+											第<span style="color:red;font-weight:600">12</span>页
+											共<span style="color:red;font-weight:600">120</span>页
+											<input type="text" class="page-input">
+											<input type="submit" class="page-btn" value="跳转">
+										</form>
+									</div>
+								</div>
+							</div>
+							</form>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	$(".mycheckboxs>div").click(function(){
+     		$(this).addClass("cur").siblings().removeClass("cur");
+     		$(".moneyblock>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+     	})
+     });
+	 KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body>
+</html>

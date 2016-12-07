@@ -1,0 +1,303 @@
+[ 2016-11-01T09:25:42+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:25:42+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:25:42+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T09:35:59+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:35:59+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:35:59+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T09:36:29+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:36:29+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T09:36:29+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:39:35+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:39:35+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:39:35+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T09:59:30+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T09:59:30+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T09:59:30+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T10:00:19+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T10:00:19+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T10:00:19+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T10:18:29+08:00 ] 127.0.0.1 /index.php/test/Industry/addindus.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fox.fox_industry' doesn't exist
+
+[ 2016-11-01T10:23:55+08:00 ] 127.0.0.1 /index.php/test/Industry/addindus.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'time' at row 1
+
+[ 2016-11-01T11:31:19+08:00 ] 127.0.0.1 /index.php/test/configuration/industry.html
+ERR: XML标签语法错误 : name="<?php echo ($vo['list']); ?
+
+[ 2016-11-01T11:58:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/edit/industry_id/1.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-01T14:26:45+08:00 ] 127.0.0.1 /index.php/test/Industry/addindus.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+
+[ 2016-11-01T14:38:05+08:00 ] 127.0.0.1 /index.php/test/configuration/edit.html
+ERR: 参数错误或者未定义:industry_id
+
+[ 2016-11-01T14:38:30+08:00 ] 127.0.0.1 /index.php/test/configuration/edit.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-11-01T14:39:06+08:00 ] 127.0.0.1 /index.php/test/industry/del/industry_id/4.html
+ERR: 非法操作:del
+
+[ 2016-11-01T17:11:35+08:00 ] 127.0.0.1 /index.php/test/configuration/uthentication.html
+ERR: 非法操作:uthentication
+
+[ 2016-11-01T17:13:37+08:00 ] 127.0.0.1 /index.php/test/configuration/alipay.html
+ERR: 非法操作:alipay
+
+[ 2016-11-01T17:13:39+08:00 ] 127.0.0.1 /index.php/test/configuration/bank.html
+ERR: 非法操作:bank
+
+[ 2016-11-01T17:13:39+08:00 ] 127.0.0.1 /index.php/test/configuration/mailbox.html
+ERR: 非法操作:mailbox
+
+[ 2016-11-01T17:13:40+08:00 ] 127.0.0.1 /index.php/test/configuration/phone.html
+ERR: 非法操作:phone
+
+[ 2016-11-01T17:13:40+08:00 ] 127.0.0.1 /index.php/test/configuration/realname.html
+ERR: 非法操作:realname
+
+[ 2016-11-01T17:14:31+08:00 ] 127.0.0.1 /index.php/test/authentication/alipay.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:14:32+08:00 ] 127.0.0.1 /index.php/test/authentication/bank.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:14:32+08:00 ] 127.0.0.1 /index.php/test/authentication/mailbox.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:14:33+08:00 ] 127.0.0.1 /index.php/test/authentication/phone.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:14:33+08:00 ] 127.0.0.1 /index.php/test/authentication/realname.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:14:48+08:00 ] 127.0.0.1 /index.php/test/Authentication/alipay.html
+ERR: 无法加载控制器:Authentication
+
+[ 2016-11-01T17:15:20+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:20+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:20+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:20+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:21+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:22+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:15:59+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:00+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-01T17:16:01+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-01T17:23:15+08:00 ] 127.0.0.1 /index.php/test/Index/verify.html
+ERR: 非法操作:verify
+
+[ 2016-11-01T17:23:17+08:00 ] 127.0.0.1 /index.php/test/Index/verify.html
+ERR: 非法操作:verify
+
+[ 2016-11-01T17:23:17+08:00 ] 127.0.0.1 /index.php/test/Index/verify.html
+ERR: 非法操作:verify
+
+[ 2016-11-01T17:23:23+08:00 ] 127.0.0.1 /index.php/test/Index/verify.html
+ERR: 非法操作:verify
+

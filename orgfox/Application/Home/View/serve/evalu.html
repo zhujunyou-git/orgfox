@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>雇主评价</title>
+      <include file="Public:css"/>
+      <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <include file="Public:top"/>
+  <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+
+                      <div>
+                          <foreach name="list['list']" item="li">
+                              <p>
+                                  <b>{$li['industry_name']}</b>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                              </p>
+                          </foreach>
+                      </div>
+
+                  </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                          <li class="fun">
+                              <em></em>
+                              <div class="mydiv">
+                                  <span data-id="">{$li['industry_name']}</span>
+                                  <div>
+                                      <p>
+                                          <foreach name="li['list']" item="i">
+                                              <a href="">{$i['industry_name']}</a>
+                                          </foreach>
+                                      </p>
+                                  </div>
+                              </div>
+                          </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container marginTop taskhall taskmain">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">用户中心</a><span>></span><a href="">我的订单</a>》<a href="">评价</a></p>
+    </div>
+    <div class="container taskone">
+            <div class="taskboxs">
+            <div class="pull-left taskboxLeft evaluation">
+                <h3>评价</h3>
+                <form action="{:U('Evaluate/shop_add')}" id="gondone" method="post">
+                  <div class="eavlbox">
+                    <div class="eavlbox1">
+                      <b>总体评价：</b>
+                      <label class="radio-inline">
+                        <input type="radio" name="evaluate" id="inlineRadio1" value="1" class="option1"> <span class="glyphicon glyphicon-star">好评</span>
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="evaluate" id="inlineRadio2" value="2" class="option1"> <span class="glyphicon glyphicon-star">中评</span>
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="evaluate" id="inlineRadio3" value="3" class="option1"> <span class="glyphicon glyphicon-star">差评</span>
+                      </label>
+                    </div>
+                    <div class="eavlbox2">
+                      <b>评价内容：</b>
+                      <textarea class="form-control" rows="10" class="gong1" name="content"></textarea>
+                      <p>最多输入100字</p>
+                    </div>
+                    <div class="eavlbox3">
+                      <b>评价质量：</b>
+                      <p class="eabox1">
+                        工作速度：
+                        <input type="hidden" value="" name="sudu">
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                      </p>
+                      <p class="eabox2">
+                        工作质量：
+                        <input type="hidden" value="" name="zhiliang">
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <span class="glyphicon glyphicon-heart"></span>
+                      </p>
+                    </div>
+                    <div class="eavlbox4">
+                        <input type="hidden" name="shop_id" value="{$shop_id}"/>
+                      <input type="submit" value="提交" class="goning"><a href="">返回</a>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="pull-right taskboxright evalus">
+                <div>
+                  <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      var cur;
+      $(".eavlbox3 p span").click(function(){
+          $(this).addClass("cur")
+          $(this).prevAll("span").addClass("cur")
+          $(this).nextAll('span').removeClass("cur");
+          cur=$(this).parent().find(".cur").length;
+          $(this).siblings("input").val(cur);
+      });
+      
+      $(".goning").click(function(){
+        var j=0;
+        var a=$(".option1").prop("checked");
+        var c=$(".eavlbox3 p input");
+        for(var i=0;i<c.length;i++){
+          if(c.eq(i).val()!=""){
+            j++;
+          }
+        }
+        console.log(j)
+        if(a==true&&j==c.length){
+            $("#gondone").submit();
+        }
+      });
+      //
+    </script>
+  </body>
+</html>

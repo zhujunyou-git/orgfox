@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页轮播图管理</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">财务模块</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+						<a href="">财务概况</a>
+						<a href="" class="cur">网站收支</a>
+						<a href="">用户流水</a>
+						<a href="">充值审核</a>
+						<a href="">提现审核</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+				<h3 class="sos"><strong>充值提示</strong></h3>
+				<div class="row1 rowol">
+					<ol>
+						<li>1直接在线充值（包含针对任务托管或人才交易直接充值部分）</li>
+						<li>2线下银行充值（即用户填写线下银行汇款凭证后管理员审核通过部分）</li>
+						<li>3目前网站管理员手动充值不计算在内，请管理员谨慎操作手动充值</li>
+					</ol>
+				</div>
+				<h3 class="sos">
+					<strong>
+						网站收支列表管理【网站收支是记录网站平台每天收入和支出的流水记录，与网站的业务逻辑无关，仅对用户充值、提现进行记录。】
+				    </strong>
+			    </h3>
+				<div class="row1 moneyrow1 mycheckboxs mypayments">
+					<div class="row-left cur">
+						<div class="form-group">
+                           <b>查看收入</b>
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+                           <b>查看支出</b>
+						</div>
+					</div>
+				</div>
+				<div class="moneycheck">
+						<div class="moneyblock">
+							<div class="cur">
+								<div class="row1 moneyrow2">
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>编号</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>类型</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>财务用途</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>充值用户</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>金额</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>时间</strong>
+										</div>
+									</div>
+								</div>
+								<div class="row1 mypaydivbox">
+									<div class="row-left">
+										<div class="form-group">
+											<label for="">选择时间：</label>
+											<form action="" mothod="post">
+												<input class="form-input-txt" type="text" name="stime" value="" />
+
+												<input class="form-input-txt" type="text" name="ovname" value="" />
+												<button>导出Excel</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>编号</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>提现类型</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>金额</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>申请提现时间</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>申请人</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>申请提现账号</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>处理提现时间</strong>
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <strong>提现状态</strong>
+										</div>
+									</div>
+								</div>
+								<div class="row1 mypaydivbox">
+									<div class="row-left">
+										<div class="form-group">
+											<label for="">选择时间：</label>
+											<form action="" mothod="post">
+												<input class="form-input-txt" type="text" name="stime" value="" />
+												
+												<input class="form-input-txt" type="text" name="ovname" value="" />
+												<button>导出Excel</button>
+											</form>
+										</div>
+									</div>
+									<div class="row-left forboxdiv">
+										<div class="form-group">
+											<p>支出总计：￥ <span>0 </span>元</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	$(".mycheckboxs>div").click(function(){
+     		$(this).addClass("cur").siblings().removeClass("cur");
+     		$(".moneyblock>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+     	})
+     });
+	 KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body>
+</html>

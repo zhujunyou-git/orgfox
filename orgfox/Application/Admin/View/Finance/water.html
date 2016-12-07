@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页轮播图管理</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">财务模块</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+						<a href="" >财务概况</a>
+						<a href="">网站收支</a>
+						<a href="" class="cur">用户流水</a>
+						<a href="">充值审核</a>
+						<a href="">提现审核</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+				<h3 class="sos"><strong>搜索</strong></h3>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">财务编号</label>
+							<input class="form-input-txt" type="text" name="stime" value="" />
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">用户名</label>
+							<input class="form-input-txt" type="text" name="stime" value="" />
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">财务用途</label>
+							<select name="" class="form-input-txt">
+                                <option value="">所有的</option>
+               				  	<option value="buy_service">购买人才 </option>
+               				  	<option value="buy_gy">雇佣服务 </option>
+               				  	<option value="pub_task">发布任务 </option>
+               				  	<option value="hosted_reward">托管赏金 </option>
+               				  	<option value="withdraw">提现 </option>
+               				  	<option value="task_delay">任务延期 </option>
+               				  	<option value="ext_cash">额外奖励 </option>
+               				  	<option value="offline_charge">线下充值 </option>
+               				  	<option value="task_bid">任务中标 </option>
+               				  	<option value="task_fail">任务失败退款 </option>
+               				  	<option value="task_prom_fail">任务推广失败退款 </option>
+               				  	<option value="sale_service">卖服务费用 </option>
+               				  	<option value="sale_gy">出售雇佣服务 </option>
+               				  	<option value="admin_recharge">管理员充值 </option>
+               				  	<option value="withdraw_fail">提现失败返还 </option>
+               				  	<option value="report">仲裁处理 </option>
+               				  	<option value="payitem">增值服务 </option>
+               				  	<option value="prom_reg">推广注册 </option>
+               				  	<option value="task_fj">任务反金 </option>
+               				  	<option value="rights_return">维权返还 </option>
+               				  	<option value="task_auto_return">自动选标余款 </option>
+               				  	<option value="order_cancel">订单终止返款 </option>
+               				  	<option value="online_charge">在线余额充值 </option>
+               				  	<option value="order_charge">订单充值 </option>
+               				  	<option value="prom_pub_task">推广发布任务 </option>
+               				  	<option value="user_charge">用户手动充值 </option>
+               				  	<option value="prom_bid_task">推广承接任务 </option>
+               				  	<option value="prom_service">推广购买服务 </option>
+               				  	<option value="prom_bank_auth">推广注册+银行认证 </option>
+               				  	<option value="prom_realname_auth">推广注册+实名认证 </option>
+               				  	<option value="prom_email_auth">推广注册+邮箱认证 </option>
+               				  	<option value="prom_mobile_auth">推广注册+手机认证 </option>
+               				  	<option value="prom_enterprise_auth">推广注册+手机认证 </option>
+               				  	<option value="enterprise_auth">企业认证 </option>
+               				  	<option value="task_remain_return">任务余款返还 </option>
+               				  	<option value="task_hosted_return">托管余款返还 </option>
+               				  	<option value="admin_charge">网站手动充值 </option>
+               				  	<option value="host_deposit">托管诚意金 </option>
+               				  	<option value="deposit_return">诚意金退还 </option>
+               				  	<option value="host_return">托管佣金返还 </option>
+               				  	<option value="cancel_bid">撤销中标 </option>
+               				  	<option value="host_split">托管佣金分配 </option>
+               				  	<option value="workhide">人才隐藏退款 </option>
+               				  	<option value="seohide">屏蔽搜索引擎退款 </option>
+               				  	<option value="tasktop">任务置顶退款 </option>
+               				  	<option value="goodstop">服务置顶退款 </option>
+               				  	<option value="urgent">任务加急退款 </option>
+               				  	<option value="finish_task">完成福袋任务 </option>
+               				  	<option value="task_xg">任务返还金额 </option>
+                   			</select>
+						</div>
+					</div>
+				</div>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">财务类型</label>
+							<select name="" class="form-input-txt">
+                                <option value="">所有的</option>
+                   				<option value="out">支出</option>
+                    			<option value="in">收入</option>
+                           </select>
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">结果排序</label>
+                        <select name="" class="form-input-txt">
+                           <option value="fina_id" selected="selected">默认排序</option>
+                           <option value="fina_time">结算时间</option>
+                        </select>
+                        <select name="" class="form-input-txt">
+                            <option selected="selected" value="desc">递减</option>
+                            <option value="asc">递增</option>
+                      </select>
+						</div>
+					</div>
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">显示结果</label>
+                            <select name="" class="form-input-txt">
+                               <option value="10">每页显示10</option>
+                               <option value="20">每页显示20</option>
+                               <option value="30">每页显示30</option>
+                             </select>
+                             <button>搜索</button>
+						</div>
+					</div>
+				</div>
+				<h3 class="sos"><strong>统计信息 【本站所有用户最新发生的财务流水总记录。】</strong></h3>
+				<div class="moneycheck">
+						<div class="moneyblock">
+							<div class="cur">
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <input type="checkbox" name="nunber">编号
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           类型
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           财务用途
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           用户
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           金额
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           用户余额
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           时间
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           删除
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <input type="checkbox" name="nunber">104
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           收入
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           任务失败退款
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           admin
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥27.00元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥88,295.92元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           2016-09-22 16:10:19
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <button>删除</button>
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <input type="checkbox" name="nunber">104
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           收入
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           任务失败退款
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           admin
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥27.00元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥88,295.92元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           2016-09-22 16:10:19
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <button>删除</button>
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <input type="checkbox" name="nunber">104
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           收入
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           任务失败退款
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           admin
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥27.00元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           ￥88,295.92元
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           2016-09-22 16:10:19
+										</div>
+									</div>
+									<div class="row-left">
+										<div class="form-group">
+				                           <button>删除</button>
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="row-left">
+										<div class="form-group">
+				                           <button>全选</button> <button>批量删除</button>
+										</div>
+									</div>
+								</div>
+								<div class="row1 moneyrow3">
+									<div class="form-group">
+										<div class="page">
+											<form action="" method="get">
+											共<span>42</span>个站点
+												<a href="">首页</a>
+												<a href="">上一页</a>
+												<a href="">下一页</a>
+												第<span style="color:red;font-weight:600">12</span>页
+												共<span style="color:red;font-weight:600">120</span>页
+												<input type="text" class="page-input">
+												<input type="submit" class="page-btn" value="跳转">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	$(".mycheckboxs>div").click(function(){
+     		$(this).addClass("cur").siblings().removeClass("cur");
+     		$(".moneyblock>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+     	})
+     });
+	 KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的店铺</title>
+      <include file="Public:css"/>
+      <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body >
+  <include file="Public:top"/>
+  <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+                      <div>
+                          <foreach name="list['list']" item="li">
+                              <p>
+                                  <b>{$li['industry_name']}</b>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                              </p>
+                          </foreach>
+                      </div>
+                  </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                          <li class="fun">
+                              <em></em>
+                              <div class="mydiv">
+                                  <span data-id="">{$li['industry_name']}</span>
+                                  <div>
+                                      <p>
+                                          <foreach name="li['list']" item="i">
+                                              <a href="">{$i['industry_name']}</a>
+                                          </foreach>
+                                      </p>
+                                  </div>
+                              </div>
+                          </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container myshopdiv">
+       <div class="banner">
+         <img src="__PUBLIC__/img/shopbanner.jpg" class="autoimg" alt="">
+       </div>
+       <div class="shopcentent appraiseshow ">
+         <span class="pull-left">
+           <img src="{$shop_list['head']}" class="autoimg" alt="">
+           <i>{$shop_list['shopname']}</i>
+         </span>
+         <div class="pull-left shopleft">
+           <h3>个性签名</h3>
+           <p class="qianming">{$shop_list['autograph']}</p>
+           <p>
+               认证：
+               <if condition="$shop_list['pay'] eq 2">
+               <em><img src="__PUBLIC__/img/z1.png" alt=""/></em>
+               </if>
+               <if condition="1 eq 1">
+               <em><img src="__PUBLIC__/img/z2.png" alt=""/></em>
+               </if>
+               <if condition="$shop_list['real'] eq 2">
+               <em><img src="__PUBLIC__/img/z3.png" alt=""/></em>
+               </if>
+               <if condition="$shop_list['bank'] eq 2">
+               <em><img src="__PUBLIC__/img/z4.png" alt=""/></em>
+               </if>
+               <if condition="$shop_list['email'] eq 1">
+               <em><img src="__PUBLIC__/img/z5.png" alt=""/></em>
+               </if>
+           </p>
+           <p>来自：<em>{$shop_list['pro']}-{$shop_list['city']}</em></p>
+          <div class="eavlbox3">
+            <p>
+              工作速度：
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+            <p>
+              工作质量：
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+            <p>
+              工作态度：
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </p>
+          </div>
+         </div>
+       </div>
+       <div class="checklists">
+         <p class="pboxs">
+           <a href="javascript:void(0);" class="cur">服务</a>
+           <a href="javascript:void(0);">评价详情</a>
+         </p>
+         <div class="divboxs">
+          <div class="detailscenter cur">
+            <ul>
+                <volist name="list1" id="vo">
+                <li>
+                   <a href="{:U('Serve/business?shop_id='.$vo['shop_id'])}">
+                     <span><img src="__PUBLIC__/img/detail.png" class="autoimg" style="background-image:url({$vo['bbbox']});" alt=""></span>
+                     <div>
+                        <p class="detailmoney"><em>￥{$vo['money']}</em><span class="pull-right">成交量：{$vo['number']}</span></p>
+                        <p class="sername">服务名称：<span>{$vo['server_name']}</span></p>
+                        <p class="address"><b>{$vo['pro']}-{$vo['city']}</b><i class="pull-right">联系我</i></p>
+                     </div>
+                   </a>
+                </li>
+                </volist>
+            </ul>
+          </div>
+          <div class="listshowies myshop">
+           <div class="shownone transaction myshowlj">
+               <div class="businesslists">
+                   <b class="pull-left"><img src="" alt=""></b>
+                   <h3>admin1<span>好评率：100%</span></h3>
+                   <p>提交于2016-11-15</p>
+                   <p class="dybusi">去评价</p>
+                   <div class="eavlbox3">
+                       <p class="first-child">
+                           工作速度：
+                           <input type="hidden" value="3">
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                       </p>
+
+                       <p class="second-child">
+                           工作质量：
+                           <input type="hidden" value="1">
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                       </p>
+
+                       <p class="third-child">
+                           工作态度：
+                           <input type="hidden" value="4">
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                           <span class="glyphicon glyphicon-star"></span>
+                       </p>
+                   </div>
+               </div>                      
+             </div>
+           <div class="shownone myoneljh" style="display: none">
+               <h3>抱歉！没有评论</h3>
+           </div>
+       </div>
+         </div>
+       </div>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(".pboxs a").click(function(){
+          var t=$(this);
+          t.addClass("cur").siblings().removeClass("cur");
+          $(".divboxs>div").eq(t.index()).addClass("cur").siblings().removeClass("cur");
+      });
+      $(function(){
+        var a=$(".myshop .eavlbox3 p");
+        var b;
+        var c;
+        for(var i=0;i<a.length;i++){
+          b=a.eq(i).find("input").val();
+          c=a.eq(i).find("span");
+          c.eq(b-1).addClass("cur");
+          if(c.eq(b-1).hasClass("cur")){
+            c.eq(b-1).prevAll("span").addClass("cur")
+          }
+        }
+      })
+    </script>
+  </body>
+</html>

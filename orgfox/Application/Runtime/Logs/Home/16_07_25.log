@@ -1,0 +1,166 @@
+[ 2016-07-25T09:58:13+08:00 ] 127.0.0.1 /index.php/Home/index/fill_in.html
+ERR: 参数错误或者未定义:uid
+
+[ 2016-07-25T10:10:19+08:00 ] 127.0.0.1 /index.php/Home/index/fill_in.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 12' at line 1
+
+[ 2016-07-25T10:11:49+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_id` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_activate` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T10:12:17+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_activate` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T10:12:55+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_activate` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'afb8627df266ddbe4fa725f0af6fb2f9' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T10:13:54+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T10:17:17+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_id` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'b68eb3befca81fe0252295b384977966' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_activate` FROM `jsb_user` WHERE `username` = '111111' AND `password` = 'b68eb3befca81fe0252295b384977966' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jsb_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T16:43:57+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('123123','f56f7cce2e65a3d7b6d6e2204b93dc8f','569795939@qq.com','S8DAB4') [ RunTime:0.0040s ]
+
+[ 2016-07-25T16:43:57+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-25T16:43:57+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-25T16:44:06+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-25T16:45:16+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1231231','92a92837656979d2a4f5470b07c6f0a8','569795939@qq.com','U0AMDC') [ RunTime:0.0050s ]
+
+[ 2016-07-25T16:47:10+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '112233' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('112233','da382fac4fba8d6d08a28b69f4808789','569795939@qq.com','A3ZT6Y') [ RunTime:0.0050s ]
+
+[ 2016-07-25T16:48:41+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('111222','886f48f6321a24f6492a55be9e67910d','569795939@qq.com','ZLI95B') [ RunTime:0.0020s ]
+
+[ 2016-07-25T16:49:20+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '222111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('222111','fb2645842d856986a48312f98dfd8a0b','569795939@qq.com','M7U3B5') [ RunTime:0.0040s ]
+
+[ 2016-07-25T16:50:53+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '321321' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('321321','ed03cbde63a24e6cc00b1733af2ba1df','569795939@qq.com','XB2ZRF') [ RunTime:0.0040s ]
+
+[ 2016-07-25T16:52:28+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '432112' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('432112','fe04cc41a88c784e626b352be06258dd','569795939@qq.com','Z0USIN') [ RunTime:0.0080s ]
+
+[ 2016-07-25T16:53:38+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '121212' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('121212','bb6386585ebf28280b78fce960f851d6','569795939@qq.com','DXQW4F') [ RunTime:0.0080s ]
+
+[ 2016-07-25T17:21:46+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+SQL: SELECT `rand_code` FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `user_id` FROM `jsb_user` WHERE `username` = '123123' AND `password` = 'f56f7cce2e65a3d7b6d6e2204b93dc8f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_activate` FROM `jsb_user` WHERE `username` = '123123' AND `password` = 'f56f7cce2e65a3d7b6d6e2204b93dc8f' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T17:22:06+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '11111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-25T17:22:15+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '11111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('11111111','a3a8a4d25ee21e2391a302db5253ee61','569795939@qq.com','0428DH') [ RunTime:0.0040s ]
+

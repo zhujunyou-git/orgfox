@@ -1,0 +1,131 @@
+<div class="container-fluid headerTop">
+    <div class="container myHone">
+        <if condition="$_SESSION['user']"><div class="pull-left">欢迎您，已登录<a href="{:U('user/PersonalCenter')}">{$_SESSION['user']['username']}</a>
+            <a href="{:U('index/Logout')}">退出</a></div>
+            <else /><div class="pull-left">欢迎您，<a href="{:U('reception')}">请登录</a><a href="{:U('register')}">免费注册</a></div>
+        </if>
+        <div class="pull-right">
+            <ul class="right-nav">
+                <li class="nav-item has-sub">
+                    <a href="#" class="nav-item-link ">我是雇主<span class="caret"></span></a>
+                    <ul class="nav-item-sub nav-sub-list">
+                        <li><a href="">找服务商</a></li>
+                        <li><a href="">发布任务</a></li>
+                        <li><a href=""><span class="badge"></span>待付款任务</a></li>
+                        <li><a href=""><span class="badge"></span>待付款人才</a></li>
+                        <li><a href=""><span class="badge"></span>待评价</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-sub">
+                    <a href="#" class="nav-item-link">我是服务商<span class="caret"></span></a>
+                    <ul class="nav-item-sub nav-sub-list">
+                        <li><a href="">发布人才</a></li>
+                        <li><a href="">我的店铺</a></li>
+                        <li><a href=""><span class="badge"></span>新的雇佣</a></li>
+                        <li><a href=""><span class="badge"></span>新服务订单 </a></li>
+                        <li><a href=""><span class="badge"></span>待评价</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="{:U('User/PersonalCenter')}" class="nav-item-link">用户中心</a>
+                </li>
+                <li class="nav-item has-sub">
+                    <a href="javascript:void(0);" class="nav-item-link">分类导航 <span class="caret"></span></a>
+                    <div class="nav-item-sub">
+                        <dl>
+                            <dt>
+                                任务
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="">一级建造师</a></li>
+                                    <li><a href="">二级建造师</a></li>
+                                    <li><a href="">结构工程师</a></li>
+                                    <li><a href="">注册建筑师</a></li>
+                                    <li><a href="">注册电气工程师</a></li>
+                                    <li><a href="">注册咨询师</a></li>
+                                    <li><a href="">注册设备工程师</a></li>
+                                    <li><a href="">土木工程师</a></li>
+                                    <li><a href="">造价工程师</a></li>
+                                    <li><a href="">监理工程师</a></li>
+                                    <li><a href="">八大员</a></li>
+                                    <li><a href="">其他证书</a></li>
+                                    <li><a href="">爆破工程师</a></li>
+                                    <li><a href="">注册消防工程师</a></li>
+                                    <li><a href="">中级职称</a></li>
+                                    <li><a href="">高级职称</a></li>
+                                    <li><a href="">技工证</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <div class="line"></div>
+                        <dl>
+                            <dt>
+                                人才
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="">一级建造师</a></li>
+                                    <li><a href="">二级建造师</a></li>
+                                    <li><a href="">结构工程师</a></li>
+                                    <li><a href="">注册建筑师</a></li>
+                                    <li><a href="">注册电气工程师</a></li>
+                                    <li><a href="">注册咨询师</a></li>
+                                    <li><a href="">注册设备工程师</a></li>
+                                    <li><a href="">土木工程师</a></li>
+                                    <li><a href="">造价工程师</a></li>
+                                    <li><a href="">监理工程师</a></li>
+                                    <li><a href="">八大员</a></li>
+                                    <li><a href="">其他证书</a></li>
+                                    <li><a href="">注册消防工程师</a></li>
+                                    <li><a href="">中级职称</a></li>
+                                    <li><a href="">高级职称</a></li>
+                                    <li><a href="">技工证</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:spread(false);void(0);" class="nav-item-link">推广</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container mysearch">
+        <a href="" id="logo" class="pull-left"><img src="__PUBLIC__/img/logo.jpg" class="autoimg"alt=""><p>为企业服务</p></a>
+        <div class="mysearchs pull-left">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">服务<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">建筑工程</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">建筑工程</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">建筑工程</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">建筑工程</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">建筑工程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left myinput" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="请输入关键词">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+            <div class="navbar-collapse">
+                <p>热门搜索:<a href="">建筑工程</a><a href="">建筑工程</a><a href="">建筑工程</a><a href="">建筑工程</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="__PUBLIC__/js/myindex.js"></script>

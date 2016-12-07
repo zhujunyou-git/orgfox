@@ -1,0 +1,12 @@
+[ 2016-10-11T16:32:40+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 76 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = 'qweqwe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('qweqwe','8c39f6631d87407a81e385223d71295c','569795939@qq.com','K61RLX') [ RunTime:0.0016s ]
+
+[ 2016-10-11T17:11:15+08:00 ] 127.0.0.1 /
+ERR: 非法操作:login
+

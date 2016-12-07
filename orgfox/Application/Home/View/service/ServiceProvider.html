@@ -1,0 +1,210 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>企业导航</title>
+    <include file="Public:css"/>
+    <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <include file="Public:top"/>
+    <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+
+                      <div>
+                          <foreach name="list['list']" item="li">
+                              <p>
+                                  <b>{$li['industry_name']}</b>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                              </p>
+                          </foreach>
+                      </div>
+
+                  </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                          <li class="fun">
+                              <em></em>
+                              <div class="mydiv">
+                                  <span data-id="">{$li['industry_name']}</span>
+                                  <div>
+                                      <p>
+                                          <foreach name="li['list']" item="i">
+                                              <a href="">{$i['industry_name']}</a>
+                                          </foreach>
+                                      </p>
+                                  </div>
+                              </div>
+                          </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container marginTop taskhall">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">企业导航</a></p>
+      <div class="halllist">
+          <ul>
+              <li>
+                  <h3 class="pull-left">一级服务：</h3>
+                  <div class="listcontent pull-left">
+                      <span class="pull-left">全部</span>
+                      <p>
+                          <volist name="one_indus" id="vo">
+                              <a href="javascript:void(0)" class="one" data-id="{$vo['industry_id']}">{$vo['industry_name']}</a>
+                          </volist>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <h3 class="pull-left">二级服务：</h3>
+                  <div class="listcontent pull-left">
+                      <div>
+                          <span class="pull-left">全部</span>
+                          <p class="sedtwo">
+
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <h3 class="pull-left">三级服务：</h3>
+                  <div class="listcontent pull-left">
+                      <div>
+                          <span class="pull-left">全部</span>
+                          <p class="therep">
+
+                          </p>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </div> 
+    </div>
+    <div class="container taskhallone serveP">
+      <div class="pull-left hallleft">
+        <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+      </div>
+      <div class="pull-left hallright">
+           <div class="halltop">
+               <span>综合</span>
+               <span>成交量</span>
+               <!--<span>好评率</span>-->
+               <select name="" id="">
+                 <option value="所在区域">所在区域</option>
+               </select>
+           </div>
+           <div class="hallcenter">
+               <ul>
+                   <volist name="shop" id="vo">
+                   <li>
+                       <div>
+                           <span class="servebox pull-left autoimg" style="background-image: url({$vo['head']});width: 60px;height:60px;"></span>
+                           <h3>{$vo['shopname']}</h3>
+                           <p>服务范围{$vo['indus_id']}-{$vo['indus_pid']}-{$vo['indus_tid']}</p>
+                           <p>成交量:{$vo['total']}</p>
+                           <p>地址:{$vo['pro']}-{$vo['city']}</p>
+                           <p class="ljbutton"><a href="">进入店铺</a><a href="">联系我</a></p>
+                       </div>
+                   </li>
+                   </volist>
+               </ul>
+           </div>
+      </div>
+    </div>
+        <div class="container-fluid adsp">
+        <h4>广告条</h4>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+  </body>
+<script>
+    $(function(){
+        var html,html1,html2,html3,html4,html5;
+        $('.one').click(function(){
+            var id=$(this).data('id');
+            $(".parents").val(id);
+            $(".childrens,.minchildrens,.if").val("");
+            $(".twoul,.sedtwo,.therep").html("");
+            $.post("{:U('Service/two_server')}",{indus_id:id},function(msg){
+                for(var k in msg.two){
+                    html='<a href="javascript:void(0);" data-id='+msg.two[k].industry_id+'>'+msg.two[k].industry_name+'</a>';
+                    $(".sedtwo").append(html);
+                }
+
+            });
+        });
+        $(".sedtwo").delegate("a","click",function(){
+            var id=$(this).data('id');
+            $(".childrens").val(id);
+            $(".twoul,.therep").html("");
+            $.post("{:U('Service/three_server')}",{indus_pid:id},function(msg){
+                for(var k in msg.three){
+                    html2='<a href="javascript:void(0);" data-id='+msg.three[k].industry_id+'>'+msg.three[k].industry_name+'</a>';
+                    $(".therep").append(html2);
+                }
+            });
+        });
+        $(".therep").delegate("a","click",function(){
+            var id=$(this).data('id');
+            $(".minchildrens").val(id);
+            $(".twoul").html("");
+            $.post("{:U('Service/server')}",{indus_tid:id},function(msg){
+
+            });
+        });
+    });
+</script>
+</html>

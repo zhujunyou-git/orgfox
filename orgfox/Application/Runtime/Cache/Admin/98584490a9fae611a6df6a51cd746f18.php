@@ -1,0 +1,299 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付接口</title>
+	<link rel="stylesheet" href="/Public/css/reset.css" />
+	<link rel="stylesheet" href="/Public/css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">全局配置</a>><a href="">支付接口</a></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+						<a href="javasctipt:void(0);" class="cur">支付配置</a>
+						<a href="javasctipt:void(0);">在线支付接口</a>
+					</h3>
+				</div>
+				<div class="public-content-cont mychecksboxaa">
+					<div class="regionlist pay payone cur">
+						<h3 class="sos">充值提现配置</h3>
+						<form action="" method="post" id="myform1">
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">用户充值最小金额：</label>
+									<input class="form-input-txt" type="text" name="mincase" value="">(单位：元)
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">用户当日提现最高值：</label>
+									<input class="form-input-txt" type="text" name="maxcase" value="">(单位：元)
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">用户提现金额最小值：</label>
+									<input class="form-input-txt" type="text" name="minmney" value="">(单位：元)
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">单笔资费：</label>
+									<input class="form-input-txt" type="text" name="sowcase" value="">(用户提现单笔收费比率% )
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">单笔最低收费：</label>
+									<input class="form-input-txt" type="text" name="mincharge" value="">(用户提现单笔收费最低金额。少于200的提现以此为收费标准。元)
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">单笔最高收费：</label>
+									<input class="form-input-txt" type="text" name="maxcharge" value="">
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<input class="" type="submit" name="" value="提交">
+								</div>
+							</div>
+					    </div>
+					    </form>
+					</div>
+					<div class="paytow regionlist">
+                    	<h3 class="sos"><strong>开启支付接口后，在用户中心充值才会显示支付接口,点击编辑后可以配置支付接口的参数</strong></h3>
+						<form action="" method="post">
+                         
+							<h3 class="sos"><strong>支付接口</strong><a href="http://bbs.kppw.cn/bbs_redirect.php?c=2">查看相关教程</a></h3>
+							<div class="row1">
+								<div class="row-right rightheader">支付接口名称</div>
+								<div class="row-right rightheader">对应目录</div>
+								<div class="row-right rightheader">开发者</div>
+								<div class="row-right rightheader">说明</div>
+								<div class="row-right rightheader">应用状态</div>
+								<div class="row-right rightheader">操作</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">支付宝双功能</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">双功能接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">支付宝</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">即时到账接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">网银在线</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">双功能接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">贝宝</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">即时到账接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">财付通</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">财付通接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">微信支付</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">微信扫码支付</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+									<button>申请接口</button>
+								</div>
+							</div>
+							<div class="row1">
+								<div class="row-right"><a href="javascript:void(0);" class="mybuttongo">易宝</a></div>
+								<div class="row-right">alipaydual</div>
+								<div class="row-right">kekezu</div>
+								<div class="row-right"><a href="">易宝接口</a></div>
+								<div class="row-right">关闭</div>
+								<div class="row-right">
+									<button>启用</button>
+									<button>配置</button>
+								</div>
+							</div>
+                        </form>
+                    </div>
+					<div class="regionlist pay paythere">
+						<h3 class="sos">支付宝双功能支付接口配置</h3>
+						<form action="" method="post" id="myform1">
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">接口名称:</label>
+									<span class="form-input-txt">支付宝双功能</span>
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">接口描述:</label>
+									<span class="form-input-txt">双功能接口</span>
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">是否启用:</label>
+									<input class="" type="radio" name="minmney" value="">开启
+									<input class="" type="radio" name="minmney" value="">关闭
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">支付宝帐号:</label>
+									<input class="form-input-txt" type="text" name="" value="">
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">付款人真实姓名:</label>
+									<input class="form-input-txt" type="text" name="" value="">
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">合作者身份(PID):</label>
+									<input class="form-input-txt" type="text" name="" value="">
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">安全效验码(Key):</label>
+									<input class="form-input-txt" type="text" name="" value="">
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">文字提示:</label>
+									<textarea name="" id="" cols="30" rows="10"></textarea>
+								</div>
+							</div>
+					    </div>
+	                    <div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<input class="" type="submit" name="" value="提交">
+								</div>
+							</div>
+					    </div>
+					    </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="/Public/kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="/Public/js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	$(".moneyone a").click(function(){
+     		$(this).addClass("cur").siblings().removeClass("cur");
+     		$(".mychecksboxaa>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+     	});
+     	$(".mydelete").click(function(){
+            $(this).parents(".row1").remove();
+     	});
+     	$(".addcos").click(function(){
+           $(".myfixed").css("display","block");
+     	});
+     	$(".mychecksboxaa>div h3 a").click(function(){
+           $(".myfixed").css("display","none");
+     	});
+     	$(".sunmit").click(function(){
+           var val=$(this).siblings("input");
+           if(val.val()==null||val.val()==""){
+           	alert("未填写");
+           	val.focus();
+           }else{
+           	$("#myform1").submit();
+           	var html=$(".regionlist").html();
+           	console.log(html)
+		    $(this).parents(".regionlist").append(html);
+           }
+     	});
+     	$(".mybuttongo").click(function(){
+     		for(var i=0;i<$(".regionlist").length;i++){
+     			$(".regionlist").removeClass("cur")
+     			$(".paythere").addClass("cur");
+     		}
+     	})
+     });
+        
+</script>
+</body>
+</html>

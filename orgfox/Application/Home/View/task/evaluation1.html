@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>雇主评价</title>
+    <include file="Public:css"/>
+    <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <include file="Public:top"/>
+    <div class="container marginTop taskhall taskmain">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">交易大厅</a><span>></span><a href="">建造师</a></p>
+    </div>
+    <div class="container taskone">
+            <div class="taskboxs">
+            <div class="pull-left taskboxLeft evaluation">
+                 <h3>服务商</h3>
+                <div class="businesslists">
+                  <b class="pull-left"><img src="" alt=""></b>
+                  <h3>{$task_p['username']}<span>好评率：100%</span></h3>
+                  <p>提交于{$task_p['time']|date='Y-m-d',###}</p>
+                  <p class="dybusi xxboax">{$task_p['demand']}</p>
+                  <em>附件（{$task_p['file']|count })</em>
+                  <volist name="$task_p.file" id="vof">
+                    <a href="{$vof}" target="_blank">查看附件</a>
+                  </volist>
+                  <i style="display: none;"><img src="" alt=""></i>
+                </div>
+                <h3>评价</h3>
+                <form action="{:U('task/evaluate')}" id="gondone" method="post">
+                  <div class="eavlbox">
+                    <div class="eavlbox1">
+                      <b>总体评价：</b>
+                      <label class="radio-inline">
+                        <input type="radio"  id="inlineRadio1" name="evaluate" value="1" class="option1"> <span class="glyphicon glyphicon-star">好评</span>
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio"  id="inlineRadio2"name="evaluate" value="2" class="option1"> <span class="glyphicon glyphicon-star">中评</span>
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio"  id="inlineRadio3" name="evaluate" value="3" class="option1"> <span class="glyphicon glyphicon-star">差评</span>
+                      </label>
+                    </div>
+                    <div class="eavlbox2">
+                      <b>评价内容：</b>
+                      <textarea class="form-control" rows="10" class="gong1" name="content"></textarea>
+                      <p>最多输入100字</p>
+                    </div>
+                    <div class="eavlbox3">
+                      <b>评价质量：</b>
+                      <p class="eabox1">
+                        工作速度：
+                        <input type="hidden" value="" name="sudu">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                      </p>
+                      <p class="eabox2">
+                        工作质量：
+                        <input type="hidden" value="" name="zhiliang">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                      </p>
+                      <p class="eabox3">
+                        工作态度：
+                        <input type="hidden" value="" name="taidu">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                      </p>
+                    </div>
+                    <div class="eavlbox4">
+                      <input type="hidden" value="{$to_user_id}" name="to_user_id">
+                      <input type="hidden" value="{$task_p['task_id']}" name="task_id">
+                      <input type="hidden" value="1" name="type">
+                      <input type="submit" value="提交" class="goning"><a href="">返回</a>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="pull-right taskboxright evalus">
+              <div class="lineright">
+                <div class="righttop">
+                     <h3>恭喜已完成交易！</h3>
+                     <p>请对服务商进行评价</p>
+                </div>
+              </div>
+                <div class="adimg2">
+                  <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      var cur;
+      $(".eavlbox3 p span").click(function(){
+        $(this).addClass("cur")
+        $(this).prevAll("span").addClass("cur")
+        $(this).nextAll('span').removeClass("cur");
+        cur=$(this).parent().find(".cur").length;
+        $(this).siblings("input").val(cur);
+      });
+      
+      $(".goning").click(function(){
+        var j=0;
+        var a=$(".option1").prop("checked");
+        var c=$(".eavlbox3 p input");
+        for(var i=0;i<c.length;i++){
+          if(c.eq(i).val()!=""){
+            j++;
+          }
+        }
+        console.log(j)
+        if(a==true&&j==c.length){
+            $("#gondone").submit();
+        }
+      });
+      //
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+auth-认证文件夹
+head-头像文件夹
+task-招标文件夹
+task1-投标文件夹
+task_deli-交标文件夹
+industry-行业文件夹
+headpicture-店铺头部
+footpicture-店铺背景
+aabox-服务详情
+bbbox-服务图片
+orderfile-购买商品附件

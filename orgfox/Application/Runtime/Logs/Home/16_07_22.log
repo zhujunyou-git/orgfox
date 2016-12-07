@@ -1,0 +1,353 @@
+[ 2016-07-22T10:04:53+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('111111','43c6d15a3713813927a6999b005f5050','569795939@qq.com','N1U06J') [ RunTime:0.0020s ]
+
+[ 2016-07-22T10:38:14+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '122222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:39:35+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:39:43+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:42:51+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:43:19+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:43:52+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '12312311' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:44:20+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '11111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:44:58+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:45:23+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:46:08+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:49:30+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:52:43+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:54:17+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:58:17+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 212 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 797 行.
+
+[ 2016-07-22T10:59:00+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 212 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 797 行.
+
+[ 2016-07-22T11:00:34+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T11:05:29+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 212 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 797 行.
+
+[ 2016-07-22T11:07:00+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 212 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 797 行.
+
+[ 2016-07-22T11:07:56+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 208 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 793 行.
+
+[ 2016-07-22T11:13:23+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fputs() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 208 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, integer given D:\xampps\jsb\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 793 行.
+
+[ 2016-07-22T11:18:56+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T11:35:29+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('123123','3a13710e557cc00e41428c7f28e389db','569795939@qq.com','U37CMD') [ RunTime:0.0050s ]
+
+[ 2016-07-22T11:36:51+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-22T11:36:56+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1231231','3d237665ae57687ac00fd5783375521f','569795939@qq.com','CBOZ7K') [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: dataReturn D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 91 行.
+
+[ 2016-07-22T11:38:06+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1111111','a9ffa81406f5750df160d2547baf2513','569795939@qq.com','M1T3UB') [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: dataReturn D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 92 行.
+
+[ 2016-07-22T11:39:01+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('111111','70a8624158a3b82ba56eba8633bd4cc3','569795939@qq.com','HWLIK4') [ RunTime:0.0070s ]
+
+[ 2016-07-22T11:39:28+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1111111','79a4d1199a06b4577fa71b169dd3da91','569795939@qq.com','CLFD6H') [ RunTime:0.0080s ]
+
+[ 2016-07-22T11:41:57+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('123123','b8bb675fdb083b6015823782fd85633d','123@qq.com','FX9SD5') [ RunTime:0.0050s ]
+
+[ 2016-07-22T11:42:02+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1231231','4eec75f390081cbc52b203ff92c67b39','123@qq.com','IP3O2E') [ RunTime:0.0040s ]
+
+[ 2016-07-22T11:42:29+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T11:42:37+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T11:42:40+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '12312311' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('12312311','1603ae7e956a0ef35fc44376731db284','569795939@qq.com','26TL0I') [ RunTime:0.0050s ]
+
+[ 2016-07-22T11:47:11+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('111111111','7a56217d17b959a771e4497d36c7e9d0','569795939@qq.com','AMLXFG') [ RunTime:0.0070s ]
+
+[ 2016-07-22T11:50:34+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1111111111','afee2007776d039df9b9223548eddd75','569795939@qq.com','K7P5LY') [ RunTime:0.0040s ]
+
+[ 2016-07-22T14:40:34+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('111111','82d8f9e86cd973a51dd6fc81543eb11e','569795939@qq.com','PYLDR0') [ RunTime:0.0070s ]
+
+[ 2016-07-22T14:40:59+08:00 ] 127.0.0.1 /home/index/activate/uid/MTI=
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 12' at line 1
+
+[ 2016-07-22T14:45:43+08:00 ] 127.0.0.1 /home/index/activate/uid/MTI=
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 12' at line 1
+
+[ 2016-07-22T15:01:25+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 72 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jsb_user` (`username`,`password`,`email`,`rand_code`) VALUES ('1111111','f35cbe28ea6d50c9fe8e03b0483bb83d','569795939@qq.com','9DHYPV') [ RunTime:0.0070s ]
+
+[ 2016-07-22T15:54:43+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T15:54:53+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '1231231' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-22T15:54:59+08:00 ] 127.0.0.1 /index.php/Home/index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jsb_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_AjAX - assumed 'IS_AjAX' D:\xampps\jsb\Application\Home\Controller\IndexController.class.php 第 71 行.
+SQL: SELECT * FROM `jsb_user` WHERE `username` = '12312311' LIMIT 1   [ RunTime:0.0000s ]
+

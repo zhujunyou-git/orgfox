@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>编辑行业</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/reset.css" />
+	<link rel="stylesheet" href="__PUBLIC__/css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">全局配置</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3 class="moneyone">
+                           <a href="">行业管理</a>
+					</h3>
+				</div>
+				<div class="public-content-cont">
+				<h3 class="sos"><strong>编辑行业</strong></h3>
+				<form action="{:U('column/save')}" method="post" enctype="multipart/form-data">
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">父行业</label>
+							<select class="form-input-txt" name="upid">
+								<option value="0">置顶</option>
+								<volist name="upid" id="vo">
+									<option value="{$vo.id}" <?php echo $name['upid']==$vo['id']?"selected='selected'":''?>>{$vo.name}</option>
+								</volist>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+							<label for="">行业名称</label>
+							<empty name="$name['name']">
+								<input type="text" class="form-input-txt" name="name" value="{$name['name']}">
+								<input type="hidden" value="{$name['id']}" name="id">
+								<else />
+								<input type="text" class="form-input-txt" name="industry_name" >
+							</empty>
+						</div>
+					</div>
+				</div>
+				<div class="row1">
+					<div class="row-left">
+						<div class="form-group">
+                            <input type="submit" value="提交">
+						</div>
+					</div>
+				</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+     $(function(){
+     	var a=0;
+      $(".seelook").click(function(){
+          if(a==0){
+          	a=1;
+	        $(this).parents(".myparents").css("height","auto");
+	        $(this).val("收起子类");
+          }else{
+          	a=0;
+	        $(this).parents(".myparents").css("height","57px");
+	        $(this).val("查看子类");
+          }
+      });
+      $(".deletethis").click(function(){
+        $(this).parents(".myparents").remove();
+      });
+	  $(".addlook").click(function(){
+	     $(".myfixed2").css("display","block");
+	   });
+	  $(".myfixed h3 a").click(function(){
+	     $(".myfixed2").css("display","none");
+	   });
+     });
+</script>
+</body>
+</html>

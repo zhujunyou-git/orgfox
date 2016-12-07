@@ -1,0 +1,1772 @@
+[ 2016-10-26T08:49:41+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T08:52:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T08:53:46+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T08:57:05+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T08:57:52+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:04:18+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:05:29+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:06:34+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:08:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:08:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=27 )  [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:10:00+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T09:10:35+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:11:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=29
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=29 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:11:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:12:06+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:14:07+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:15:44+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=15 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:16:29+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=27 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:17:45+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T09:18:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:20:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:27:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:27:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:28:22+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:28:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:29:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:30:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=8 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:30:36+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:31:52+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:32:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=22 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:33:47+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=35 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:37:09+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:37:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:40:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-10-26T09:43:00+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\xampps\entefox\Application\Admin\Controller\ConfigurationController.class.php 第 51 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['upid'] ) LIMIT 1' at line 1
+
+[ 2016-10-26T09:43:17+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion D:\xampps\entefox\Application\Admin\Controller\ConfigurationController.class.php 第 51 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['upid'] ) LIMIT 1' at line 1
+
+[ 2016-10-26T09:43:56+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+
+[ 2016-10-26T09:44:34+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\xampps\entefox\Application\Admin\Controller\ConfigurationController.class.php 第 51 行.
+
+[ 2016-10-26T09:45:01+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-10-26T09:45:15+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T09:45:39+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:46:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:46:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:47:34+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:48:08+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:48:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:49:47+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:50:21+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:50:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:50:54+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:51:05+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:52:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T09:52:30+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:52:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:52:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:52:33+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T09:53:15+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-10-26T09:53:23+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:53:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T09:53:36+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:05:07+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:06:07+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:06:27+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:11:35+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:12:01+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:12:03+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T10:12:53+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:12:56+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T10:13:33+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:15:14+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:15:16+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:21:40+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:25:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:25:51+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:26:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:26:40+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:27:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:27:13+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:28:17+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:28:19+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:29:30+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:29:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:30:51+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:30:54+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:32:56+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=5 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:33:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:33:16+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006807s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:33:26+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=5 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:33:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=6 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:34:10+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:34:14+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:34:21+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:34:27+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:34:33+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:34:35+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:40:00+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T10:41:14+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:43:17+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:43:45+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:44:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:44:54+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:44:56+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:47:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:47:34+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:47:57+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T10:48:03+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:48:22+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:49:20+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:49:21+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:50:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:50:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:50:26+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:50:27+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:56:43+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:56:54+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:56:56+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=55 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=55 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:57:26+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:57:27+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=55 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=55 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:57:48+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T10:57:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=55 )  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=55 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:05:05+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-10-26T11:05:30+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:05:44+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:05:45+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T11:06:10+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:06:16+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:06:20+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:11:01+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:11:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:11:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:11:26+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:11:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:11:52+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0030s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:13:23+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:13:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:13:48+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:13:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T11:14:30+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:14:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:15:19+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:15:21+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:15:53+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:15:55+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=91
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=91 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=91 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T11:16:04+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=9 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:16:06+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=92
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=92 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=92 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:16:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:16:36+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:08+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:31+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:45+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:17:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T11:18:05+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:18:09+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:18:34+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:19:57+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:20:23+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:20:55+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:21:44+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:21:47+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T11:22:11+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:22:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T11:22:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:22:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=38 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:23:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:23:08+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:23:46+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:23:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:24:46+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:24:48+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T11:25:47+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:25:48+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:26:55+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:05+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0049s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:27:08+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:22+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:23+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:27:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0029s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:29:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:30:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:30:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:30:50+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:30:59+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:00+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:13+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:22+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:24+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0061s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:31:32+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T11:31:39+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:31:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:33:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:33:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:34:20+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T11:34:22+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:15:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:23:57+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:24:58+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:02+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:13+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-26T16:26:25+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:30+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:48+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:26:59+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:27:09+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:27:10+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:27:29+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-10-26T16:27:33+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:27:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:27:51+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-26T16:28:08+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=28 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:28:12+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=448
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=448 )  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=448 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:29:36+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:29:37+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:29:41+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:29:42+08:00 ] 127.0.0.1 /index.php/test/Configuration/dqtwo.html?id=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=37 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-26T16:29:49+08:00 ] 127.0.0.1 /index.php/test/Configuration/dq.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=12 )  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fox_district` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+

@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>行业管理</title>
+        <link rel="stylesheet" href="__PUBLIC__/css/reset.css"/>
+        <link rel="stylesheet" href="__PUBLIC__/css/content.css"/>
+    </head>
+    <body marginwidth="0" marginheight="0">
+    <div class="container">
+        <div class="myboxdiv">
+            <div class="public-nav">您当前的位置：<a href="">全局配置</a>></div>
+            <div class="public-content">
+                <div class="public-content-header">
+                    <h3 class="moneyone">
+                        <a href="">行业管理</a>
+                    </h3>
+                </div>
+                <div class="public-content-cont">
+                    <h3 class="sos"><strong>行业列表</strong></h3>
+
+                    <div class="moneycheck">
+                        <div class="moneyblock">
+                            <div class="cur">
+                                <form action="">
+                                    <div class="row1 moneyrow5">
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                编号
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                行业名称
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                修改时间
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                操作
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <foreach name="pid" item="vo">
+                                        <div class="myparents">
+                                            <div class="row1 moneyrow5">
+                                                <div class="row-left">
+                                                    <div class="form-group">
+                                                        <input type="button" class="form-input-txt" name="nunber"
+                                                               value="{$vo.industry_id}">
+                                                    </div>
+                                                </div>
+                                                <div class="row-left">
+                                                    <div class="form-group">
+                                                        <span>{$vo['industry_name']}</span>
+                                                        <input type="button" class="seelook" value="查看子类">
+                                                    </div>
+                                                </div>
+                                                <div class="row-left">
+                                                    <div class="form-group">
+                                                        {$vo['time']|date="Y-m-d",###}
+                                                    </div>
+                                                </div>
+                                                <div class="row-left">
+                                                    <div class="form-group">
+                                                        <a href="{:U('edit?industry_id='.$vo['industry_id'])}">编辑</a>
+                                                        <a href="{:U('industry/del?industry_id='.$vo['industry_id'])}"
+                                                           data-id="{$vo['industry_id']}" class="myidbox">删除</a>
+                                                        <input type="button" class="addlook" value="增加子类">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <foreach name="vo['list']" item="li">
+                                                <div class="mychildren">
+                                                    <div class="row1 moneyrow5">
+                                                        <div class="row-left">
+                                                            <div class="form-group">
+                                                                <input type="button" class="form-input-txt" name="nunber"
+                                                                       value="{$li['industry_id']}">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-left">
+                                                            <div class="form-group">
+                                                                <span>{$li['industry_name']}</span>
+                                                                <input type="button" class="seelook" value="查看子类">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-left">
+                                                            <div class="form-group">
+                                                                {$li['time']|date="Y-m-d",###}
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-left">
+                                                            <div class="form-group">
+                                                                <a href="{:U('edit?industry_id='.$li['industry_id'])}">编辑</a>
+                                                                <a href="{:U('industry/del?industry_id='.$li['industry_id'])}" data-id="{$li['industry_id']}" class="myidbox">删除</a>
+                                                                <input type="button" class="addchilren" value="增加子类"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <foreach name="li['list']" item="i">
+                                                    <div class="mychildren">
+                                                        <div class="row1 moneyrow5">
+                                                            <div class="row-left">
+                                                                <div class="form-group">
+                                                                    <input type="button" class="form-input-txt"
+                                                                           name="nunber" value="{$i['industry_id']}">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row-left">
+                                                                <div class="form-group">
+                                                                    <span>{$i['industry_name']}</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row-left">
+                                                                <div class="form-group">
+                                                                    {$i['time']|date="Y-m-d",###}
+                                                                </div>
+                                                            </div>
+                                                            <div class="row-left">
+                                                                <div class="form-group">
+                                                                    <a href="{:U('edit?industry_id='.$i['industry_id'])}">编辑</a>
+                                                                    <a href="{:U('industry/del?industry_id='.$i['industry_id'])}">删除</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </foreach>
+                                                </div>
+                                            </foreach>
+                                        </div>
+                                    </foreach>
+                                    <div class="row1">
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                <a href="edit.html">添加顶级行业</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row1 myfixed myfixed2">
+                                <div class="form-group">
+                                    <form action="{:U('industry/indus')}" method="post">
+                                        <h3>添加子类<a href="javascript:void(0);">x</a></h3>
+                                        <input type="text" name="industry_name" class="form-input-txt">
+                                        <input type="submit" class="buttonbox sunmit" value="提交">
+                                        <input type="hidden" value="" name="industry_pid" class="myhidden"/>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row1 myfixed myfixed3">
+                                <div class="form-group">
+                                    <form action="{:U('industry/indus')}" method="post">
+                                        <h3>添加子类<a href="javascript:void(0);">x</a></h3>
+                                        <input type="text" name="industry_name" class="form-input-txt">
+                                        <input type="submit" class="buttonbox sunmit" value="提交">
+                                        <input type="hidden" value="" name="industry_pid" class="myhiddens"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(".seelook").click(function () {
+                var t = $(this);
+                if (!t.hasClass("cur")) {
+                    t.addClass("cur");
+                    t.parent().parent().parent().parent().css("height", "auto");
+                    t.val("收起子类");
+                } else {
+                    t.removeClass("cur");
+                    t.parent().parent().parent().parent().css("height", "53px");
+                    t.val("查看子类");
+                }
+            });
+            $(".addlook").click(function () {
+                $(".myfixed2").css("display", "block");
+                var a = $(this).siblings('.myidbox').attr("data-id");
+                $(".myhidden").val(a)
+            });
+            $(".addchilren").click(function () {
+                $(".myfixed3").css("display", "block");
+                var a = $(this).siblings('.myidbox').attr("data-id");
+                $(".myhiddens").val(a)
+            });
+            //
+            $(".myfixed h3 a").click(function () {
+                $(".myfixed2,.myfixed3").css("display", "none");
+            });
+        });
+
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>任务大厅</title>
+      <include file="Public:css"/>
+      <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <include file="Public:top"/>
+  <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+                      <div>
+                          <foreach name="list['list']" item="li">
+                              <p>
+                                  <b>{$li['industry_name']}</b>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                              </p>
+                          </foreach>
+                      </div>
+                  </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                          <li class="fun">
+                              <em></em>
+                              <div class="mydiv">
+                                  <span data-id="">{$li['industry_name']}</span>
+                                  <div>
+                                      <p>
+                                          <foreach name="li['list']" item="i">
+                                              <a href="">{$i['industry_name']}</a>
+                                          </foreach>
+                                      </p>
+                                  </div>
+                              </div>
+                          </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container marginTop taskhall detailsmian">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">招聘</a></p>
+      <div class="halllist">
+        <ul>
+          <li>
+            <h3 class="pull-left">一级服务：</h3>
+            <div class="listcontent pull-left">
+                <span class="pull-left">全部</span>
+                <p>
+                    <volist name="one_indus" id="vo">
+                      <a href="javascript:void(0)" class="one" data-id="{$vo['industry_id']}">{$vo['industry_name']}</a>
+                    </volist>
+                </p>
+            </div>
+          </li>
+          <li>
+            <h3 class="pull-left">二级服务：</h3>
+            <div class="listcontent pull-left">
+                <div>
+                    <span class="pull-left">全部</span>
+                    <p class="sedtwo">
+
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <h3 class="pull-left">三级服务：</h3>
+            <div class="listcontent pull-left">
+                <div>
+                    <span class="pull-left">全部</span>
+                    <p class="therep">
+
+                    </p>
+                </div>
+            </div>
+        </li>
+        </ul>
+      </div> 
+    </div>
+    <div class="container taskhallone Details">
+      <div class="pull-left hallleft">
+        <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+        <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+      </div>
+      <div class="pull-left hallright">
+           <div class="halltop">
+               <span data-id="0" onclick="myvalue(0,0,this)">综合</span>
+               <span data-id="1" onclick="myvalue(1,2,this)">发布时间</span>
+               <span data-id="2" onclick="myvalue(3,4,this)">价格↓</span>
+               <span data-id="3" onclick="myvalue(5,6,this)">成交量</span>
+               <select name="" id="">
+                 <option value="所在区域">所在区域</option>
+               </select>
+           </div>
+           <div class="detailscenter">
+                <ul class="twoul">
+                    <volist name="indus_list" id="vo">
+                  <li>
+                     <a href="{:U('Serve/business?shop_id='.$vo['shop_id'])}">
+                       <span><img src="__PUBLIC__/img/detail.png" class="autoimg" style="background-image:url({$vo['bbbox']});"alt=""></span>
+                       <div>
+                          <p class="detailmoney"><em>￥{$vo['money']}</em><span class="pull-right">成交量：<if condition="empty($vo['number'])"> 0 <else/> {$vo['number']} </if></span></p>
+                          <p class="sername">服务名称：<span>{$vo['server_name']}</span></p>
+                          <p class="address"><b>{$vo['pro']}-{$vo['city']}</b><i class="pull-right">联系我</i></p>
+                       </div>
+                     </a>
+                  </li>
+                    </volist>
+                </ul>
+           </div>
+      </div>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+  <div style="display: none">
+      <form action="" id="formac">
+          <input type="hidden" class="parents" name="indus_id"/>
+          <input type="hidden" class="childrens" name="indus_pid"/>
+          <input type="hidden" class="minchildrens" name="indus_tid"/>
+          <input type="hidden" class="if" name="order"/>
+      </form>
+  </div>
+  </body>
+</html>
+<script>
+    $(function(){
+        var html,html1,html2,html3,html4,html5;
+        $('.one').click(function(){
+            var id=$(this).data('id');
+            $(".parents").val(id);
+            $(".childrens,.minchildrens,.if").val("");
+            $(".twoul,.sedtwo,.therep").html("");
+            $.post("{:U('Serve/two_server')}",{indus_id:id},function(msg){
+                 for(var k in msg.two){
+                     html='<a href="javascript:void(0);" data-id='+msg.two[k].industry_id+'>'+msg.two[k].industry_name+'</a>';
+                     $(".sedtwo").append(html);
+                 }
+                for(var j in msg.data){
+                    html1=
+                            '<li>'+
+                            '<a href="'+"/index.php/Home/Serve/business/shop_id/"+msg.data[j].shop_id+'.html'+'">'+
+                            '<span><img src="__PUBLIC__/img/detail.png" class="autoimg" '+'style="background-image:url('+msg.data[j].bbbox+');"'+'alt=""></span>'+
+                            '<div>'+
+                            '<p class="detailmoney"><em>￥'+msg.data[j].money+'</em><span class="pull-right">成交量：'+msg.data[i].number+'</span></p>'+
+                            '<p class="sername">服务名称：<span>'+msg.data[j].server_name+'</span></p>'+
+                            '<p class="address"><b>'+msg.data[j].pro+'-'+msg.data[j].city+'</b><i class="pull-right">联系我</i></p>'+
+                            '</div>'+
+                            '</a>'+
+                            '</li>';
+                    $(".twoul").append(html1);
+                }
+            });
+        });
+        $(".sedtwo").delegate("a","click",function(){
+             var id=$(this).data('id');
+            $(".childrens").val(id);
+            $(".twoul,.therep").html("");
+            $.post("{:U('Serve/three_server')}",{indus_pid:id},function(msg){
+                for(var k in msg.three){
+                    html2='<a href="javascript:void(0);" data-id='+msg.three[k].industry_id+'>'+msg.three[k].industry_name+'</a>';
+                    $(".therep").append(html2);
+                }
+                for(var j in msg.data){
+                    html3=
+                            '<li>'+
+                            '<a href="'+"/index.php/Home/Serve/business/shop_id/"+msg.data[j].shop_id+'.html'+'">'+
+                            '<span><img src="__PUBLIC__/img/detail.png" class="autoimg" '+'style="background-image:url('+msg.data[j].bbbox+');"'+'alt=""></span>'+
+                            '<div>'+
+                            '<p class="detailmoney"><em>￥'+msg.data[j].money+'</em><span class="pull-right">成交量：'+msg.data[i].number+'</span></p>'+
+                            '<p class="sername">服务名称：<span>'+msg.data[j].server_name+'</span></p>'+
+                            '<p class="address"><b>'+msg.data[j].pro+'-'+msg.data[j].city+'</b><i class="pull-right">联系我</i></p>'+
+                            '</div>'+
+                            '</a>'+
+                            '</li>';
+                    $(".twoul").append(html3);
+                }
+            });
+        });
+        $(".therep").delegate("a","click",function(){
+            var id=$(this).data('id');
+            $(".minchildrens").val(id);
+            $(".twoul").html("");
+            $.post("{:U('Serve/server')}",{indus_tid:id},function(msg){
+                for(var j in msg.data){
+                    html4=
+                            '<li>'+
+                            '<a href="'+"/index.php/Home/Serve/business/shop_id/"+msg.data[j].shop_id+'.html'+'">'+
+                            '<span><img src="__PUBLIC__/img/detail.png" class="autoimg" '+'style="background-image:url('+msg.data[j].bbbox+');"'+'alt=""></span>'+
+                            '<div>'+
+                            '<p class="detailmoney"><em>￥'+msg.data[j].money+'</em><span class="pull-right">成交量：'+msg.data[i].number+'</span></p>'+
+                            '<p class="sername">服务名称：<span>'+msg.data[j].server_name+'</span></p>'+
+                            '<p class="address"><b>'+msg.data[j].pro+'-'+msg.data[j].city+'</b><i class="pull-right">联系我</i></p>'+
+                            '</div>'+
+                            '</a>'+
+                            '</li>';
+                    $(".twoul").append(html4);
+                }
+            });
+        });
+        $(".halltop span").click(function(){
+            var id=$(this).data('id');
+            $(".twoul").html("");
+          $.post("{:U('Serve/order')}",$("#formac").serialize(),function(msg){
+               for(var j in msg.data){
+                   html5=
+                           '<li>'+
+                           '<a href="'+"/index.php/Home/Serve/business/shop_id/"+msg.data[j].shop_id+'.html'+'">'+
+                           '<span><img src="__PUBLIC__/img/detail.png" class="autoimg" '+'style="background-image:url('+msg.data[j].bbbox+');"'+'alt=""></span>'+
+                           '<div>'+
+                           '<p class="detailmoney"><em>￥'+msg.data[j].money+'</em><span class="pull-right">成交量：'+0+'</span></p>'+
+                           '<p class="sername">服务名称：<span>'+msg.data[j].server_name+'</span></p>'+
+                           '<p class="address"><b>'+msg.data[j].pro+'-'+msg.data[j].city+'</b><i class="pull-right">联系我</i></p>'+
+                           '</div>'+
+                           '</a>'+
+                           '</li>';
+                   $(".twoul").append(html5);
+               }
+            });
+        });
+    });
+    var a=0;
+    function myvalue(a1,b1,t){
+        if(a==0){
+            a=1;
+            $(".if").prop("value",a1);
+        }else{
+            a=0;
+            $(".if").prop("value",b1);
+        }
+    }
+</script>

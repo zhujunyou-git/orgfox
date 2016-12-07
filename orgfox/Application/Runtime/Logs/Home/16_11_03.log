@@ -1,0 +1,368 @@
+[ 2016-11-03T10:17:26+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0030s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T10:17:26+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0030s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T10:17:47+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0047s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T10:17:47+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0025s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T11:20:46+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0050s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T11:20:46+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0026s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T11:25:40+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0033s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0004s ]
+
+[ 2016-11-03T11:25:40+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0023s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0002s ]
+
+[ 2016-11-03T14:30:05+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0044s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0002s ]
+
+[ 2016-11-03T14:30:05+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0029s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T14:32:03+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0035s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=3 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T14:32:03+08:00 ] 127.0.0.1 /index.php/Home/User/administration.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0022s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `fox_district` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_realname` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `fox_auth_alipay` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `fox_auth_bank` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fox_district` WHERE ( upid=1 )  [ RunTime:0.0003s ]
+
+[ 2016-11-03T17:54:52+08:00 ] 127.0.0.1 /index.php/Home/publish/index.html
+ERR: 非法操作:index
+
+[ 2016-11-03T17:55:20+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0053s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0027s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fox_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-03T18:08:10+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `fox_industry` [ RunTime:0.0047s ]
+SQL: SELECT `industry_name`,`pic`,`industry_id` FROM `fox_industry` WHERE ( industry_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `industry_id`,`industry_name` FROM `fox_industry` WHERE ( industry_pid=8 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fox_user` [ RunTime:0.0023s ]
+SQL: SELECT `user_id` FROM `fox_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fox_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/fotorama.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery.kxbdmarquee.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/bootstrap-datetimepicker.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/fotorama.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:03+08:00 ] 127.0.0.1 /index.php/Home/publish/js/bootstrap-datetimepicker.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:21:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:21:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:21:57+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:00+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:30+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:31+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:32+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:43+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:52+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:53+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:22:53+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:23:08+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:23:08+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:23:08+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:24:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:24:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/fotorama.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:24:05+08:00 ] 127.0.0.1 /index.php/Home/publish/css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-03T18:24:05+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:32+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:32+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:57+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:57+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:58+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:58+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:58+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+
+[ 2016-11-03T18:24:58+08:00 ] 127.0.0.1 /index.php/Home/publish/js/jquery-2.1.1.min.js
+ERR: 非法操作:js
+

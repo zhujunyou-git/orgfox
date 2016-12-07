@@ -1,0 +1,51 @@
+[ 2016-11-14T15:55:23+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T15:55:23+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T15:55:23+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-14T15:55:23+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-14T15:55:23+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-14T16:29:16+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T16:29:16+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T16:29:16+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-14T17:28:18+08:00 ] 127.0.0.1 /index.php/test/configuration/columndel.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-14T17:32:32+08:00 ] 127.0.0.1 /index.php/test/configuration/columnAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'
+
+[ 2016-11-14T17:51:16+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T17:51:16+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-14T17:51:16+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-11-14T18:01:59+08:00 ] 127.0.0.1 /index.php/test/configuration/columnAdd.html
+ERR: 非法操作:columnAdd
+
+[ 2016-11-14T18:05:35+08:00 ] 127.0.0.1 /index.php/test/column/save.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-11-14T18:08:08+08:00 ] 127.0.0.1 /index.php/test/column/save.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-11-14T18:08:32+08:00 ] 127.0.0.1 /index.php/test/column/save.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+

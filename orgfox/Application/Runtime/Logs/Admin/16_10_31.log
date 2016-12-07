@@ -1,0 +1,117 @@
+[ 2016-10-31T09:51:37+08:00 ] 127.0.0.1 /index.php/test/usermanage/nistration.html
+ERR: 无法加载控制器:Usermanage
+
+[ 2016-10-31T09:51:53+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:51:53+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T09:51:53+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T09:52:34+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:52:34+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:52:34+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:52:35+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:52:35+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:52:56+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:53:03+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:53:10+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:53:55+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:54:12+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T09:54:13+08:00 ] 127.0.0.1 /index.php/test/kingediter/kindeditor-all-min.js
+ERR: 非法操作:kindeditor-all-min.js
+
+[ 2016-10-31T11:15:08+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T11:15:08+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:08+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T11:15:09+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T14:39:24+08:00 ] 127.0.0.1 /index.php/test/usermanage/nistration.html
+ERR: 模板不存在:./Application/Admin/View/Usermanage/nistration.html
+
+[ 2016-10-31T18:01:28+08:00 ] 127.0.0.1 /index.php/test/configuration/industry.html
+ERR: 模板不存在:./Application/Admin/View/Configuration/industry.html
+
+[ 2016-10-31T18:01:56+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T18:01:56+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:01:56+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:16:26+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:16:26+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:16:26+08:00 ] 127.0.0.1 /index.php/test/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-31T18:17:40+08:00 ] 127.0.0.1 /index.php/test/css/content.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:17:40+08:00 ] 127.0.0.1 /index.php/test/css/reset.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-31T18:27:00+08:00 ] 127.0.0.1 /index.php/test/configuration/content.css
+ERR: 非法操作:content.css
+
+[ 2016-10-31T18:27:00+08:00 ] 127.0.0.1 /index.php/test/configuration/reset.css
+ERR: 非法操作:reset.css
+

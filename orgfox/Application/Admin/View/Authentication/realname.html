@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实名认证列表</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/reset.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/css/content.css"/>
+</head>
+<body marginwidth="0" marginheight="0">
+<div class="container">
+    <div class="myboxdiv">
+        <div class="public-nav">您当前的位置：<a href="">用户管理</a>></div>
+        <div class="public-content">
+            <div class="public-content-header">
+                <h3 class="moneyone">
+                    <a href="">实名认证列表</a>
+                </h3>
+            </div>
+            <div class="public-content-cont">
+                <h3 class="sos"><strong>实名认证列表</strong></h3>
+
+                <div class="moneycheck">
+                    <div class="moneyblock">
+                        <form action="">
+                            <div class="cur">
+                                <div class="row1 moneyrow3">
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            <input type="checkbox" name="" class="numberqu">编号
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            用户名
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            真实姓名
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            身份证号
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            身份证复印件
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            有效时间
+                                        </div>
+                                    </div>
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            认证状态
+                                        </div>
+                                    </div>
+                                </div>
+                                <volist name="realList" id="vo">
+                                    <div class="row1 moneyrow3">
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                <input type="checkbox" name="realname_id[]" value="{$vo.realname_id}" class="numberim">{$vo.realname_id}
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                {$vo.username}
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                {$vo.realname}
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                {$vo.id_card}
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                <span class="row-img"><a href="{$vo.id_pic}"><img src="{$vo.id_pic}"
+                                                                                                  alt=""></a></span>
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                终生有效
+                                            </div>
+                                        </div>
+                                        <div class="row-left">
+                                            <div class="form-group">
+                                                <if condition="$vo.real_status eq 1 ">
+                                                    审核中
+                                                    <elseif condition="$vo.real_status eq 2 "/>
+                                                    已通过
+                                                    <else/>
+                                                    未通过
+                                                </if>
+                                                <if condition="$vo.real_status != 2 ">
+                                                    <input type="button" value="通过" class="addlook"
+                                                           data-realname_id="{$vo.realname_id}">
+                                                </if>
+                                                <if condition="($vo.real_status != 2) and ($vo.real_status != 3) ">
+                                                    <input type="button" value="不通过" class="noaddlook"
+                                                           data-realname_id="{$vo.realname_id}">
+                                                </if>
+                                                <if condition="$vo.real_status != 2 ">
+                                                    <input type="button" value="删除" class="delectlook"
+                                                           data-realname_id="{$vo.realname_id}">
+                                                </if>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </volist>
+                                <div class="row1">
+                                    <div class="row-left">
+                                        <div class="form-group">
+                                            <a href="javascript:void(0);" class="quanbox">全选</a>
+                                            <input type="button" value="通过审核" class="pass">
+                                            <input type="button" value="不通过审核" class="nopass">
+                                            <input type="button" value="删除" class="deleatlook">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row1 myfixed myfixed1">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realname')}" method="post">
+                                    <h3>确定通过审核？<a href="javascript:void(0);">x</a></h3>
+                                    <input type="hidden" name="realname_id1" class="addlook1">
+                                    <input class="buttonbox sunmit" value="确定" type="submit">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row1 myfixed myfixed2">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realname')}" method="post">
+                                    <h3>为何不通过审核？<a href="javascript:void(0);">x</a></h3>
+                                    <input name="content" class="form-input-txt" type="text">
+                                    <input type="hidden" name="realname_id2" class="addlook2">
+                                    <input class="buttonbox sunmit" value="提交" type="submit">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row1 myfixed myfixed3">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realdel')}" method="post">
+                                    <h3>确定删除？<a href="javascript:void(0);">x</a></h3>
+                                    <input type="hidden" name="realname_id" class="del">
+                                    <input class="buttonbox sunmit " value="确定" type="submit">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row1 myfixed myfixed4">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realAll',array('status'=>'OK'))}" method="post">
+                                    <h3>确定所选通过审核？<a href="javascript:void(0);">x</a></h3>
+                                    <input class="buttonbox sunmit" value="确定" type="submit">
+                                    <div class="realnameem" style="opacity: 0;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row1 myfixed myfixed5">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realAll',array('status'=>'NO'))}" method="post">
+                                    <h3>确定所选不通过审核<a href="javascript:void(0);">x</a></h3>
+                                    <input class="buttonbox sunmit" value="确定" type="submit">
+                                    <div class="realnameem1" style="opacity: 0;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row1 myfixed myfixed6">
+                            <div class="form-group">
+                                <form action="{:U('Authentication/realAll',array('status'=>'DEL'))}">
+                                    <h3>确定删除所选？<a href="javascript:void(0);">x</a></h3>
+                                    <input class="buttonbox sunmit" value="确定" type="submit">
+                                    <div class="realnameem2" style="opacity: 0;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="__PUBLIC__/kingediter/kindeditor-all-min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+    $(function () {
+        $(".fogot").click(function () {
+            var mythis = $(this);
+            if (mythis.text() == "未通过") {
+                mythis.text("已通过");
+            } else {
+                mythis.text("未通过");
+            }
+        });
+        $(".quanbox").click(function () {
+            var a = 0;
+            var input = $(this).parents("form").find(".numberim");
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].checked) {
+                    a++;
+                }
+            }
+            if (a == input.length) {
+                for (var i = 0; i < input.length; i++) {
+                    input.eq(i).prop("checked", false);
+                    $(".numberqu").prop("checked", false);
+                }
+            } else {
+                for (var i = 0; i < input.length; i++) {
+                    input.eq(i).prop("checked", true);
+                    $(".numberqu").prop("checked", true);
+                }
+            }
+        });
+
+        $(".addlook").click(function () {
+            $(".myfixed1").css("display", "block");
+            var realname_id = $(this).data('realname_id');
+            $('.addlook1').val(realname_id);
+        });
+        $(".noaddlook").click(function () {
+            $(".myfixed2").css("display", "block");
+            var realname_id = $(this).data('realname_id');
+            $('.addlook2').val(realname_id);
+        });
+        $(".delectlook").click(function () {
+            $(".myfixed3").css("display", "block");
+            var realname_id = $(this).data('realname_id');
+            $('.del').val(realname_id);
+        });
+        $(".pass").click(function () {
+            var b = 0;
+            var input = $(this).parents("form").find(".numberim");
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].checked) {
+                    b++;
+                    $(".realnameem").append(input[i])
+                }
+            }
+            if (b > 0) {
+                $(".myfixed4").css("display", "block");
+            } else {
+                alert("没有所选项");
+            }
+        });
+        $(".nopass").click(function () {
+            var b = 0;
+            var input = $(this).parents("form").find(".numberim");
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].checked) {
+                    b++;
+                    $(".realnameem1").append(input[i])
+                }
+            }
+            if (b > 0) {
+                $(".myfixed5").css("display", "block");
+            } else {
+                alert("没有所选项");
+            }
+        });
+        $(".deleatlook").click(function () {
+            var b = 0;
+            var input = $(this).parents("form").find(".numberim");
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].checked) {
+                    b++;
+                    $(".realnameem1").append(input[i])
+                }
+            }
+            if (b > 0) {
+                $(".myfixed6").css("display", "block");
+            } else {
+                alert("没有所选项");
+            }
+        });
+        $(".myfixed h3 a").click(function () {
+            $(".myfixed1,.myfixed2,.myfixed3,.myfixed4,.myfixed5,.myfixed6").css("display", "none");
+        });
+
+
+        $(".numberim").click(function () {
+            var b = 0;
+            var input = $(this).parents("form").find(".numberim");
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].checked) {
+                    b++;
+                }
+            }
+            if (b == input.length) {
+                $(".numberqu").prop("checked", true);
+            } else {
+                $(".numberqu").prop("checked", false);
+            }
+        });
+        $(".numberqu").click(function () {
+            $(".quanbox").click();
+        })
+
+    });
+</script>
+</body>
+</html>

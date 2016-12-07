@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页轮播图管理</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/content.css" />
+</head>
+<body marginwidth="0" marginheight="0">
+	<div class="container">
+		<div class="myboxdiv">
+			<div class="public-nav">您当前的位置：<a href="">广告管理</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3>广告列表</h3>
+				</div>
+				<div class="public-content-cont">
+				<h3 class="sos"><strong>搜索</strong></h3>
+				<form action="" method="post">
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">广告名称</label>
+									<input class="form-input-txt" type="text" name="adname" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">广告类型</label>
+									<select class="form-input-txt" name="target_id" id="catid">
+										<option value="">请选择</option>
+										<option value="3">首页_顶部幻灯广告</option>
+										<option value="4">首页_中部一栏广告</option>
+										<option value="5">首页_中部二栏广告</option>
+										<option value="6">首页_中部三栏广告</option>
+										<option value="8">任务大厅_头部广告</option>
+										<option value="10">任务大厅_底部广告</option>
+										<option value="11">威客商城_头部广告</option>
+										<option value="13">威客商城_底部广告</option>
+										<option value="14">服务商_头部广告</option>
+										<option value="16">服务商_底部广告</option>
+										<option value="17">资讯中心_头部广告</option>
+										<option value="18">资讯中心_底部广告</option>
+										<option value="19">任务详情_底部广告</option>
+										<option value="20">商品详情_底部广告</option>
+										<option value="21">资讯详情_头部广告</option>
+										<option value="22">资讯详情_底部广告</option>
+										<option value="23">首页_中部四栏广告</option>
+										<option value="1522">商品详情_头部广告</option>
+										<option value="1523">任务详情_头部广告</option>
+										<option value="1524">登录注册_左侧广告</option>
+										<option value="24">新手指南_轮播图</option>
+									</select>
+								</div>
+							</div>
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">结果排序</label>
+									<select name="adord1" class="form-input-txt" id="adord1">
+		                                <option value="task_id" selected="selected">默认排序</option>
+		                                <option value="start_time">发布时间</option>
+		                            </select>
+		                            <select name="adord2" class="form-input-txt">
+		                                <option selected="selected" value="desc">递减</option>
+		                                <option value="asc">递增</option>
+		                            </select>
+								</div>
+							</div>
+							<div class="row-left">
+								<div class="form-group">
+									<label for="">显示结果</label>
+									<select name="page_sizes" class="form-input-txt">
+										<option value="10" selected="selected">每页显示10</option>
+										<option value="20">每页显示20</option>
+										<option value="30">每页显示30</option>
+									</select>
+									<button>搜索</button>
+								</div>
+							</div>
+						</div>
+						<h3 class="sos"><strong>广告列表</strong></h3>
+						<div class="row1 adrow">
+							<div class="row-right rightheader">广告标题</div>
+							<div class="row-right rightheader">位置</div>
+							<div class="row-right rightheader">起始时间</div>
+							<div class="row-right rightheader">终止时间</div>
+							<div class="row-right rightheader">编辑时间</div>
+							<div class="row-right rightheader">是否可用</div>
+							<div class="row-right rightheader">操作</div>
+						</div>
+						<div class="row1 adrow">
+							<div class="row-right">拍拍聘上线啦</div>
+							<div class="row-right"><a href="">首页_顶部幻灯广告</a></div>
+							<div class="row-right">永久有效</div>
+							<div class="row-right">永久有效</div>
+							<div class="row-right">2016-05-05</div>
+							<div class="row-right">可用</div>
+							<div class="row-right">
+								<button>审核通过</button>
+								<button>审核失败</button>
+								<button>查看</button>
+							</div>
+						</div>
+						<div class="row1 adrow">
+							<div class="row-right">
+								<div class="form-group">
+									<select class="form-input-txt" name="target_id" id="catid">
+										<option value="">请选择</option>
+										<option value="3">首页_顶部幻灯广告</option>
+										<option value="4">首页_中部一栏广告</option>
+										<option value="5">首页_中部二栏广告</option>
+										<option value="6">首页_中部三栏广告</option>
+										<option value="8">任务大厅_头部广告</option>
+										<option value="10">任务大厅_底部广告</option>
+										<option value="11">威客商城_头部广告</option>
+										<option value="13">威客商城_底部广告</option>
+										<option value="14">服务商_头部广告</option>
+										<option value="16">服务商_底部广告</option>
+										<option value="17">资讯中心_头部广告</option>
+										<option value="18">资讯中心_底部广告</option>
+										<option value="19">任务详情_底部广告</option>
+										<option value="20">商品详情_底部广告</option>
+										<option value="21">资讯详情_头部广告</option>
+										<option value="22">资讯详情_底部广告</option>
+										<option value="23">首页_中部四栏广告</option>
+										<option value="1522">商品详情_头部广告</option>
+										<option value="1523">任务详情_头部广告</option>
+										<option value="1524">登录注册_左侧广告</option>
+										<option value="24">新手指南_轮播图</option>
+									</select>
+									<button>添加广告</button>
+								</div>
+							</div>
+						</div>
+						<div class="row1 imrow">
+							<div class="row-right">
+								<div class="page">
+									<form action="" method="get">
+									共<span>42</span>个站点
+										<a href="">首页</a>
+										<a href="">上一页</a>
+										<a href="">下一页</a>
+										第<span style="color:red;font-weight:600">12</span>页
+										共<span style="color:red;font-weight:600">120</span>页
+										<input type="text" class="page-input">
+										<input type="submit" class="page-btn" value="跳转">
+									</form>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="myboxdiv youboxdiv" style="display: none;">
+			<div class="public-nav">您当前的位置：<a href="">广告管理</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3>广告添加</h3>
+				</div>
+				<div class="public-content-cont">
+				<form action="" method="post">
+						<div class="row1">
+							<div class="form-group">
+								<label for="">广告标题</label>
+								<input class="form-input-txt" type="text" name="tjadtitle" value="" />
+								广告标题只为识别辨认不同广告条目之用，并不在广告中显示
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+									<label for="">开始时间</label>
+									<input class="form-input-txt" type="text" name="stasrtime" value="" />
+									设置广告展示生效开始时间，留空为永久有效
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">结束时间</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+								设置广告展示生效开始时间，留空为永久有效
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">展示方式</label>
+								<input type="radio" name="overtime" value="" />图片
+								<input type="radio" name="overtime" value="" />文字
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">图片地址</label>
+								<input class="" type="file" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">图片宽度</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">链接地址</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">排序</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">是否开启</label>
+								<input type="radio" name="yess1" value="" />是
+								<input type="radio" name="yess1" value="" />否
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								  <label for=""></label>
+                                  <button>提交</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="myboxdiv youboxdiv"  style="display: none;">
+			<div class="public-nav">您当前的位置：<a href="">广告管理</a>></div>
+			<div class="public-content">
+				<div class="public-content-header">
+					<h3>广告编辑</h3>
+				</div>
+				<div class="public-content-cont">
+				<form action="" method="post">
+						<div class="row1">
+							<div class="form-group">
+								<label for="">广告标题</label>
+								<input class="form-input-txt" type="text" name="tjadtitle" value="" />
+								广告标题只为识别辨认不同广告条目之用，并不在广告中显示
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+									<label for="">开始时间</label>
+									<input class="form-input-txt" type="text" name="stasrtime" value="" />
+									设置广告展示生效开始时间，留空为永久有效
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">结束时间</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+								设置广告展示生效开始时间，留空为永久有效
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">展示方式</label>
+								<input type="radio" name="overtime" value="" />图片
+								<input type="radio" name="overtime" value="" />文字
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">图片地址</label>
+								<input class="" type="file" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">图片宽度</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">链接地址</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">排序</label>
+								<input class="form-input-txt" type="text" name="overtime" value="" />
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								<label for="">是否开启</label>
+								<input type="radio" name="yess1" value="" />是
+								<input type="radio" name="yess1" value="" />否
+							</div>
+						</div>
+						<div class="row1">
+							<div class="form-group">
+								  <label for=""></label>
+                                  <button>提交</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../kingediter/kindeditor-all-min.js"></script>
+<script>
+	 KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body>
+</html>

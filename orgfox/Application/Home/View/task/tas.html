@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>交付任务</title>
+    <include file="Public:css"/>
+    <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .mflFileUploadCss { width:83px; filter:alpha(opacity=0); opacity:0; }
+      .mflLeft_FileUpload{ background-image:url("../images/btn_look.jpg"); width:83px; overflow:hidden; }
+      .mflLeft_AddFileUpload { background-image:url("../images/btn_addPic.jpg"); }
+      .mflRightOlFiles{ padding-left:5px;}
+    </style>
+  </head>
+  <body>
+  <include file="Public:top"/>
+    <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+                  <div>
+                      <foreach name="list['list']" item="li">
+                      <p>
+                          <b>{$li['industry_name']}</b>
+                            <foreach name="li['list']" item="i">
+                            <a href="">{$i['industry_name']}</a>
+                            </foreach>
+                      </p>
+                      </foreach>
+                  </div>
+
+                      </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                      <li class="fun">
+                          <em></em>
+                          <div class="mydiv">
+                              <span data-id="">{$li['industry_name']}</span>
+                              <div>
+                                  <p>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                                  </p>
+                              </div>
+                          </div>
+                      </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container marginTop taskhall taskmain">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">交易大厅</a><span>></span><a href="">网站开发</a></p>
+    </div>
+     <div class="container taskdelivery">
+      <div class="deliverybox">
+          <h3>服务名称:{$data['title']}</h3>
+      </div>
+      <div class="deliverybox1">
+        <form action="{:U('task/bid?task_id='.$data['task_id'])}" id="form1" method="post"  enctype="multipart/form-data">
+
+        <h3><span>我要投标</span></h3>
+        <div class="delivery2">
+          <textarea class="form-control" rows="10" name="demand"></textarea>
+          <p>需求不能为空</p>
+          <div class="form-group">
+            <input type="file" class="exampleInputFile"name="file1">
+            <input type="file" class="exampleInputFile"name="file2">
+            <input type="file" class="exampleInputFile"name="file3">
+            <p class="help-block">最多可添加3个附件，每个大小不能超过2MB</p>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="examp" checked="checked">我已阅读并同意《企狐文件交稿协议》
+            </label>
+          </div>
+        </div>
+        <div class="deliverybutton">
+          <input type="hidden" name="task_id" value="{$data['task_id']}">
+          <input type="button" class="deliverysubmit" value="提交">
+          <a href="">返回</a>
+        </div>
+         </form>
+      </div>
+     </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+  <script>
+    $(function(){
+      $(".deliverysubmit").click(function(){
+        var b=$(".delivery2 textarea").val();
+        var a=$(".examp").prop("checked");
+        console.log(a,b)
+        if(b!=""&&a==true){
+          $("#form1").submit();
+        }
+      });
+    });
+
+  </script>
+  </body>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html> 
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>文件交付</title>
+      <include file="Public:css"/>
+      <include file="Public:js"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <include file="Public:top"/>
+  <div class="container-fluid box">
+      <div class="box1 container">
+          <div class="bigljh">
+              <div class="showfl">
+                  <div></div>
+                  <foreach name="parent_list" item="list">
+
+                  <div>
+                      <foreach name="list['list']" item="li">
+                      <p>
+                          <b>{$li['industry_name']}</b>
+                            <foreach name="li['list']" item="i">
+                            <a href="">{$i['industry_name']}</a>
+                            </foreach>
+                      </p>
+                      </foreach>
+                  </div>
+
+                      </foreach>
+              </div>
+              <div class="nav_fl minnav_fl">
+                  <ul>
+                      <li class="cur"><div><i class="caricons"><img src="__PUBLIC__/img//icon1.png" alt=""></i>服务产品</div></li>
+                      <foreach name="parent_list" item="li">
+                      <li class="fun">
+                          <em></em>
+                          <div class="mydiv">
+                              <span data-id="">{$li['industry_name']}</span>
+                              <div>
+                                  <p>
+                                  <foreach name="li['list']" item="i">
+                                      <a href="">{$i['industry_name']}</a>
+                                  </foreach>
+                                  </p>
+                              </div>
+                          </div>
+                      </li>
+                      </foreach>
+                  </ul>
+              </div>
+              <script>
+                  $(".nav_fl li:not('.cur')").mouseenter(function(){
+                      var t=$(this);
+                      $(".showfl").css("display","block");
+                      $(this).find("em").addClass("cur")
+                      t.find(".mydiv").addClass("cir").parent().siblings(".fun").children().removeClass("cir");
+                      $(".showfl>div").eq(t.index()).addClass("cie").siblings().removeClass("cie");
+                  });
+                  $(".bigljh").mouseleave(function(){
+                      $(".showfl").css("display","none");
+                      $(this).find("em").removeClass("cur");
+                      $(".nav_fl li:not('.cur') .mydiv").removeClass("cir");
+                      $(".showfl>div").removeClass("cie");
+                  });
+              </script>
+          </div>
+          <div class="nav_fr">
+              <ul class="pull-left">
+                  <li><a href="{:U('index/index')}">首页</a></li>
+                  <li><a href="{:U('Task/taskhall')}">交易大厅</a></li>
+                  <li><a href="{:U('serve/details')}">服务超市</a></li>
+                  <li><a href="{:U('service/ServiceProvider')}">企业导航</a></li>
+                  <li><a href="">保障计划</a></li>
+                  <li><a href="">企狐学院</a></li>
+                  <li><a href="">我要开店</a></li>
+              </ul>
+              <div class="pull-right fabubox">
+                  <a href="{:U('publish/publish')}">我要发布</a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container marginTop taskhall taskmain">
+      <p class="hallnav">你所在的位置：<a href="">首页</a><span>></span><a href="">交易大厅</a><span>></span><a href="">建造师</a></p>
+    </div>
+    <div class="container taskone">
+        <h3>服务名称:{$data.title}</h3>
+        <div class="taskboxs">
+            <div class="pull-left taskboxLeft">
+                <div class="Lefttop">
+                  <ul class="cheakmouse">
+                    <li><a href="javascript:void(0)" class="cur">服务详情</a></li>
+                    <li><a href="javascript:void(0)" >投标记录</a></li>
+
+
+                    <if condition="empty($eval) or empty ($evals)"><!--没有人评价的话评价模块不显示-->
+                        <else/>
+                        <li><a href="javascript:void(0)">评价</a></li>
+                      </if>
+                      <if condition="$third eq 1">
+                      <if condition="empty($deli)"><!--内容交付后才显示-->
+                          <else/>
+                          <li><a href="javascript:void(0)">内容交付</a></li>
+                      </if>
+                      </if>
+                  </ul>
+                </div>
+                <div class="bigbox cheakbox">
+                   <div  class="cur">
+                      <div class="leftcenter">
+                          <div class="details cur">
+                             <b class="pull-left">
+                                 <if condition="empty($data['head'])">
+                                 <img src="__PUBLIC__/img/aa.jpg" class="autoimg" alt="">
+                                     <else/>
+                                     <img src="{$data.head}" class="autoimg" alt="">
+                                 </if>
+                                 <a href="" title="{fsd}">联系我</a>
+                             </b>
+                             <p class="pull-left">
+                              <span><i><img src="__PUBLIC__/img/r1.png" class="autoimg" alt="">雇主：{$data.username}</i></span>
+                              <span><i><img src="__PUBLIC__/img/r2.png" class="autoimg" alt="">服务类型：{$data.indus_id}-{$data.indus_pid}</i></span>
+                              <span><i><img src="__PUBLIC__/img/r3.png" class="autoimg" alt="">交易模式：{$data.task_model_id}</i></span>
+                              <span><i><img src="__PUBLIC__/img/r4.png" class="autoimg" alt="">截止时间：{$data.end_time}</i></span>
+                            </p>
+                            <em>本服务已托管金额：<strong>￥{$data.money}</strong></em>
+                          </div>
+                          <div class="record"></div>
+                          <div class="evaluate"></div>
+                      </div>
+                      <div class="Progressbar">
+                        <p>
+                          <span>01  发布需求，托管赏金</span>
+                          <span>02  服务商竞标</span>
+                          <span>03  雇主选标</span>
+                          <span>04 双方签约</span>
+                          <span>05 服务商工作</span>
+                          <span>06 任务交付（按约支付赏金）</span>
+                          <span>07 评价</span>
+                        </p>
+                        <div class="cl"></div>
+                      </div>
+                      <div class="describe">
+                          <h3><span>需求描述</span></h3>
+                      </div>
+                      <div class="desbox">
+                        <p>{$data.content}</p>
+                      </div>
+                      <div class="dsfj">
+                          <if condition="empty($data['file'])"><!--招标附件-->
+                              <h3>附件<span>（0）</span></h3>
+                              <else />
+                              <h3>附件<span>（1）</span><a href="{$data['file']}">查看</a></h3>
+                          </if>
+                      </div>
+                   </div>
+                   <div>
+                    <div class="winning">
+                      <p>
+                        <span>全部</span>
+                        <span>未中标（{$nomunber}）</span>
+                        <span>已中标（{$okmunber}）</span>
+                      </p>
+                    </div>
+                       <volist name="task_p" id="vo">
+                    <div class="businesslists delivery">
+                        <if condition="$agr_status eq 2 and $vo.status eq 1"><!--签约完成-->
+                                <a href="javascript:(void(0));" class="pull-right autoing">签约完成</a>
+                            <else/>
+                            <if condition="$xuanbiao eq 1 "><!--投标时出现的按钮-->
+                                <a href="{:U('task/status?task_pid='.$vo['task_pid'])}" class="pull-right">选为中标</a>
+                            </if>
+                            <if condition="$agr_status eq 1 and $vo.status eq 1 and $user_id eq $data['user_id']">
+                                <!--甲方签署协议后出现-->
+                                <a href="javascript:(void(0));" class="pull-right autoing">请等待乙方签署协议</a>
+                                <elseif condition="$agr_status eq 1 and $vo.status eq 1 and $user_id eq $vo['user_id']"/>
+                                <a href="{:U('task/treaty?task_pid='.$vo['task_pid'])}" class="pull-right">签约</a><!--乙方签约-->
+                                <else/>
+                                <if condition="$vo.status eq 1 and $user_id eq $data['user_id']"><!--设为中标后出现的按钮-->
+                                    <a href="{:U('task/treaty?task_pid='.$vo['task_pid'])}" class="pull-right">签约</a>
+                                </if>
+                            </if>
+                        </if>
+
+
+                           <if condition="empty($vo['head'])"><!--头像没有的话使用默认头像-->
+                                <b class="pull-left myimgbox" style="background-image: url(__PUBLIC__/img/r4.png)"></b>
+                           <else />
+                                <b class="pull-left myimgbox" style="background-image: url({$vo['head']})"></b>
+                           </if>
+                      <h3>{$vo.username}<span>好评率：100%</span></h3>
+                      <p>提交于{$vo.time|date="y-m-d",### }</p>
+                        <if condition="$vo.status eq 1"><!--中标样式-->
+                      <p class="dybusi xxboax">{$vo.demand}</p>
+                            <else />
+                      <p class="dybusi">{$vo.demand}</p>
+                            </if>
+                            <em>附件（{$vo['file']|count })</em>
+
+                        <volist name="vo.file" id="vof">
+                            <a href="{$vof}" target="_blank" class="fjians">查看附件</a>
+                        </volist>
+                      <i style="display: none;"><img src="" alt=""></i>
+                    </div>
+                       </volist>
+                   </div>
+                    <if condition="empty($eval) or empty ($evals)"><!--没有人评价的话评价模块不显示-->
+                        <else/>
+                    <div class="xx appraiseshow">
+                        <div class="winning">
+                            <p>
+                                <span class="xx cur"><a href="javascript:void(0);">评雇主</a></span>
+                                <span class="xx"><a href="javascript:void(0);">评服务商</a></span>
+                            </p>
+                        </div>
+                        <div class="businesslists">
+                            <div class="cur firstcur">
+                                <b class="pull-left"><img src="" alt=""></b>
+                                <h3>{$data['username']}<span>好评率：100%</span></h3>
+                                <p>提交于{$data['time']|date="Y-m-d",###}</p>
+                                <p class="dybusi">{$evals['content']}</p>
+                                <if condition="$evals['evaluate'] eq 1">
+                                    <p>好评</p>
+                                    <elseif condition="$evals['evaluate'] eq 2"/>
+                                    <p>中评</p>
+                                    <elseif condition="$evals['evaluate'] eq 3"/>
+                                    <p>差评</p>
+                                </if>
+                                <div class="eavlbox3">
+                                    <p class="first-child">
+                                        工作速度：
+                                        <input type="hidden" value="{$evals['sudu']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                    <p class="second-child">
+                                        工作质量：
+                                        <input type="hidden" value="{$evals['zhiliang']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                    <p class="third-child">
+                                        工作态度：
+                                        <input type="hidden" value="{$evals['taidu']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="secondcur">
+                                <b class="pull-left"><img src="" alt=""></b>
+                                <h3>{$task_pid['username']}<span>好评率：100%</span></h3>
+                                <p>提交于{$task_pid['time']|date='Y-m-d',###}</p>
+                                <p class="dybusi">{$eval['content']}</p>
+                                <if condition="$eval['evaluate'] eq 1">
+                                <p>好评</p>
+                                <elseif condition="$eval['evaluate'] eq 2"/>
+                                <p>中评</p>
+                                <elseif condition="$eval['evaluate'] eq 3"/>
+                                <p>差评</p>
+                                    </if>
+                                <div class="eavlbox3">
+                                    <p class="first-child">
+                                        工作速度：
+                                        <input type="hidden" value="{$eval['sudu']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                    <p class="second-child">
+                                        工作质量：
+                                        <input type="hidden" value="{$eval['zhiliang']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                    <p class="third-child">
+                                        工作态度：
+                                        <input type="hidden" value="{$eval['taidu']}">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </if>
+                    <div class="xx">
+                        <div class="businesslists">
+                            <if condition="$data['service_state'] eq 6"><!--任务完成-->
+                                <if condition="$user_id eq $data['user_id']"><!--甲方-->
+                                    <empty name="eval['id']">
+                                        <a href="{:U('task/evaluation',array('task_id'=>$data['task_id'],'task_pid'=>$task_pid['task_pid']))}" class="pull-right">去评价</a>
+                                    </empty>
+                                    <elseif condition="$user_id eq $task_pid['user_id']" /><!--乙方-->
+                                    <empty name="evals['id']">
+                                    <a href="{:U('task/evaluation1?task_pid='.$task_pid['task_pid'])}" class="pull-right autorigth">去评价</a>
+                                    </empty>
+                                </if>
+                            <else />
+                                <if condition="$deli['status'] eq 1 and $data['user_id'] eq $user_id">
+                                    <a href="javascript:void(0);" class="pull-right addcos autorigth">验收付款</a>
+                                    <a href="javascript:void(0);" class="pull-right autorigth">交易维权</a>
+                                    </if>
+                            </if>
+                            <a href="" class="pull-right" style="display:none;">去评价</a>
+                            <b class="pull-left"><img src="" alt=""></b>
+                            <h3>{$deli['username']}<span>好评率：100%</span></h3>
+                            <p>提交于{$deli['time']|date="Y-m-d",###}</p>
+                            <p class="dybusi xxboax tance">{$deli['demand']}</p>
+                            <em>附件（{$deli['file']|count}）</em>
+                            <volist name="deli['file']" id="vof">
+                                <a href="{$vof}" target="_blank">查看附件</a>
+                            </volist>
+                            <i style="display: none;"><img src="" alt=""></i>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="pull-right taskboxright">
+              <div class="lineright">
+                <div class="righttop">
+                    <div class="rightbox">
+                      <h3>投标数</h3>
+                      <b>{$sunmunber}</b>
+                    </div>
+                    <div class="rightbox">
+                      <h3>已中标</h3>
+                      <b>{$okmunber}</b>
+                    </div>
+                </div>
+                <div class="rightcenter"><!--$data['user_id'] != $user_id-->
+                    <if condition="empty($bidder) and $data['user_id'] != $user_id and ($data['service_state'] eq 1 or $data['service_state'] eq 2 )"><!--没有投过标跟投标人才可以投标-->
+                        <a href="{:U('task/tas?task_id='.$data['task_id'])}" id="tpbox">我要投标</a>
+                    </if>
+                    <if condition="$agr_status eq 2 and $task_pid['user_id'] eq $user_id and empty($deli['status'])"><!--签约完成-->
+                    <a href="{:U('task/taskdelivery?task_pid='.$task_pid['task_pid'])}">内容交付</a>
+                    </if>
+                    <input type="hidden" value="{$data['end_time']}" id="val"/>
+                  <p id="divdown1"></p>
+                </div>
+              </div>
+                <div class="adimg2">
+                  <a href=""><img src="__PUBLIC__/img/adimg2.jpg" class="autoimg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid flooreih marginTop">
+        <div class="container">
+               <p class="boxp">友情链接:<a href="">欧安信</a><a href="">百度</a></p>
+               <p><a href="">关于我们</a><a href="">服务条款</a> <a href="">联系我们</a><a href="">网站地图</a>   <a href="">RSS订阅</a> </p> 
+               <p>公司名称:广州欧安信认证咨询有限公司 地址:广州市天河区黄村晨晖大厦D栋312 电话:18826268620<br>粤ICP备16016069号-2</p>    
+        </div>
+    </div>
+  <div class="row1 myfixed myfixed1">
+      <div class="form-group">
+          <form action="{:U('task/check')}" method="post">
+              <h3>请输入支付密码！<a href="javascript:void(0);">x</a></h3>
+              <input type="password" name="paypassword">
+              <input type="hidden" name="task_id" value="{$data['task_id']}">
+              <input type="hidden" name="task_pid" value="{$task_pid['task_pid']}">
+              <input class="buttonbox sunmit" value="确定" type="submit">
+          </form>
+      </div>
+  </div>
+    <script type="text/javascript">
+        var interval = 1000;
+        function ShowCountDown(year,month,day,divdown1)
+        {
+            var now = new Date();
+            var endDate = new Date(year, month-1, day);
+            var leftTime=endDate.getTime()-now.getTime();
+            var leftsecond = parseInt(leftTime/1000);
+            var day1=Math.floor(leftsecond/(60*60*24));
+            var hour=Math.floor((leftsecond-day1*24*60*60)/3600);
+            var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
+            var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
+            var cc = document.getElementById(divdown1);
+            var dd=document.getElementById("tpbox");
+            cc.innerHTML = "距离投标结束时间:"+"<br>"+day1+"天"+hour+"时"+minute+"分"+second+"秒";
+            if(day1<0){
+                cc.innerHTML = "投标已结束"
+                dd.style.display="none";
+                clearInterval(j);
+            }
+        }
+        var data=document.getElementById("val").value;;
+        var year1=data.substr(0,4);
+        var month1=data.substr(5,2);
+        var date1=data.substr(8,2);
+        var j=setInterval(function(){ShowCountDown(year1,month1,date1,'divdown1');}, interval);
+        var date = "2013-11-30";
+        date = date.substring(0,10);
+        date = date.replace(/-/g,'/');
+        var timestamp = new Date(date).getTime();
+
+        $(".cheakmouse a").mouseenter(function(){
+            $(this).addClass("cur").parent().siblings().children().removeClass("cur");
+            $(".cheakbox>div").eq($(this).parent().index()).addClass("cur").siblings().removeClass("cur");
+         });
+        $(".addcos").click(function(){
+            $(".myfixed1").css("display","block");
+        });
+        $(".myfixed h3 a").click(function(){
+            $(".myfixed1").css("display","none");
+        });
+        $(".winning span").click(function(){
+           $(this).addClass("cur").siblings().removeClass("cur");
+           $(".businesslists>div").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+        });
+        $(function(){
+            var val1=$(".secondcur .first-child input").val();
+            var val2=$(".secondcur .second-child input").val();
+            var val3=$(".secondcur .third-child input").val();
+            for(var i=0;i<val1;i++){
+                $(".secondcur .first-child span").eq(i).addClass("cur");
+            }
+            for(var i=0;i<val2;i++){
+                $(".secondcur .second-child span").eq(i).addClass("cur");
+            }
+            for(var i=0;i<val3;i++){
+                $(".secondcur .third-child span").eq(i).addClass("cur");
+            }
+            var val1=$(".firstcur .first-child input").val();
+            var val2=$(".firstcur .second-child input").val();
+            var val3=$(".firstcur .third-child input").val();
+            for(var i=0;i<val1;i++){
+                $(".firstcur .first-child span").eq(i).addClass("cur");
+            }
+            for(var i=0;i<val2;i++){
+                $(".firstcur .second-child span").eq(i).addClass("cur");
+            }
+            for(var i=0;i<val3;i++){
+                $(".firstcur .third-child span").eq(i).addClass("cur");
+            }
+        });
+    </script>
+  </body>
+</html>
